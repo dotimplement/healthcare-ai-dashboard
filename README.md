@@ -7,7 +7,8 @@ An interactive dashboard exploring healthcare AI repositories, including:
 - Organization rankings
 
 ## Live Demo
-TODO
+[Link to Dashboard](https://dotimplement-healthcare-ai-dashboard.streamlit.app/)
 
 ## Data Source
 Analysis based on healthcare AI repositories with metrics including stars, contributors, and activity status.
+
