@@ -1,0 +1,624 @@
+url,owner,repo,full_name,owner_type,is_organization,owner_name
+https://github.com/Project-MONAI/MONAI,Project-MONAI,MONAI,Project-MONAI/MONAI,Organization,True,Project MONAI
+https://github.com/openemr/openemr,openemr,openemr,openemr/openemr,Organization,True,OpenEMR
+https://github.com/OpenHealthForAll/open-health,OpenHealthForAll,open-health,OpenHealthForAll/open-health,Organization,True,
+https://github.com/MIT-LCP/mimic-code,MIT-LCP,mimic-code,MIT-LCP/mimic-code,Organization,True,MIT Laboratory for Computational Physiology
+https://github.com/synthetichealth/synthea,synthetichealth,synthea,synthetichealth/synthea,Organization,True,Synthea
+https://github.com/stanford-crfm/helm,stanford-crfm,helm,stanford-crfm/helm,Organization,True,Stanford Center for Research on Foundation Models
+https://github.com/fastenhealth/fasten-onprem,fastenhealth,fasten-onprem,fastenhealth/fasten-onprem,Organization,True,Fasten Health
+https://github.com/hapifhir/hapi-fhir,hapifhir,hapi-fhir,hapifhir/hapi-fhir,Organization,True,HAPI FHIR
+https://github.com/medplum/medplum,medplum,medplum,medplum/medplum,Organization,True,Medplum
+https://github.com/StanfordBDHG/HealthGPT,StanfordBDHG,HealthGPT,StanfordBDHG/HealthGPT,Organization,True,Stanford Biodesign Digital Health
+https://github.com/node-on-fhir/cookbook,node-on-fhir,cookbook,node-on-fhir/cookbook,Organization,True,Node on FHIR
+https://github.com/openmrs/openmrs-core,openmrs,openmrs-core,openmrs/openmrs-core,Organization,True,OpenMRS
+https://github.com/microsoft/fhir-server,microsoft,fhir-server,microsoft/fhir-server,Organization,True,Microsoft
+https://github.com/sunlabuiuc/PyHealth,sunlabuiuc,PyHealth,sunlabuiuc/PyHealth,Organization,True,SunLab
+https://github.com/nextgenhealthcare/connect,nextgenhealthcare,connec,nextgenhealthcare/connec,Organization,True,NextGen Healthcare
+https://github.com/zatosource/zato,zatosource,zato,zatosource/zato,User,False,"ESB, SOA, REST, APIs and Cloud Integrations in Python"
+https://github.com/OHDSI/CommonDataModel,OHDSI,CommonDataModel,OHDSI/CommonDataModel,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/HospitalRun/hospitalrun,HospitalRun,hospitalrun,HospitalRun/hospitalrun,Organization,True,HospitalRun
+https://github.com/google/fhir,google,fhir,google/fhir,Organization,True,Google
+https://github.com/FirelyTeam/firely-net-sdk,FirelyTeam,firely-net-sdk,FirelyTeam/firely-net-sdk,Organization,True,Firely
+https://github.com/ubicomplab/rPPG-Toolbox,ubicomplab,rPPG-Toolbox,ubicomplab/rPPG-Toolbox,Organization,True,UW Ubicomp Lab
+https://github.com/google/simhospital,google,simhospital,google/simhospital,Organization,True,Google
+https://github.com/smart-on-fhir/client-py,smart-on-fhir,client-py,smart-on-fhir/client-py,Organization,True,SMART on FHIR
+https://github.com/HL7/fhir,HL7,fhir,HL7/fhir,Organization,True,Health Level Seven International
+https://github.com/metriport/metriport,metriport,metripor,metriport/metripor,Organization,True,Metriport
+https://github.com/ncbi-nlp/BioSentVec,ncbi-nlp,BioSentVec,ncbi-nlp/BioSentVec,Organization,True,NLM/NCBI BioNLP Research Group (PI: Zhiyong Lu)
+https://github.com/ncbi-nlp/bluebert,ncbi-nlp,blueber,ncbi-nlp/blueber,Organization,True,NLM/NCBI BioNLP Research Group (PI: Zhiyong Lu)
+https://github.com/pliang279/MultiBench,pliang279,MultiBench,pliang279/MultiBench,User,False,Paul Liang
+https://github.com/microsoft/InnerEye-DeepLearning,microsoft,InnerEye-DeepLearnin,microsoft/InnerEye-DeepLearnin,Organization,True,Microsoft
+https://github.com/re-search/DocProduct,re-search,DocProduc,re-search/DocProduc,Organization,True,re.Search
+https://github.com/google/android-fhir,google,android-fhir,google/android-fhir,Organization,True,Google
+https://github.com/FudanDISC/DISC-MedLLM,FudanDISC,DISC-MedLLM,FudanDISC/DISC-MedLLM,Organization,True,FudanDISC
+https://github.com/informatici/openhospital,informatici,openhospital,informatici/openhospital,Organization,True,Informatici Senza Frontiere
+https://github.com/microsoft/dicom-server,microsoft,dicom-server,microsoft/dicom-server,Organization,True,Microsoft
+https://github.com/nazrulworld/fhir.resources,nazrulworld,fhir.resources,nazrulworld/fhir.resources,User,False,Md Nazrul Islam
+https://github.com/microsoft/FHIR-Converter,microsoft,FHIR-Converter,microsoft/FHIR-Converter,Organization,True,Microsoft
+https://github.com/isaacmg/healthcare_ml,isaacmg,healthcare_ml,isaacmg/healthcare_ml,User,False,Isaac Godfried
+https://github.com/hapifhir/hapi-fhir-jpaserver-starter,hapifhir,hapi-fhir-jpaserver-starter,hapifhir/hapi-fhir-jpaserver-starter,Organization,True,HAPI FHIR
+https://github.com/vanderschaarlab/mlforhealthlabpub,vanderschaarlab,mlforhealthlabpub,vanderschaarlab/mlforhealthlabpub,Organization,True,van_der_Schaar \LAB
+https://github.com/FHIR/fhir.js,FHIR,fhir.js,FHIR/fhir.js,Organization,True,FHIR
+https://github.com/kexinhuang12345/clinicalBERT,kexinhuang12345,clinicalBERT,kexinhuang12345/clinicalBERT,User,False,Kexin Huang
+https://github.com/hurcy/awesome-ehr-deeplearning,hurcy,awesome-ehr-deeplearnin,hurcy/awesome-ehr-deeplearnin,User,False,Cinyoung Hur
+https://github.com/earthians/marley,earthians,marley,earthians/marley,Organization,True,earthians
+https://github.com/818000/bus,818000,bus,818000/bus,User,False,
+https://github.com/opensource-emr/hospital-management-emr,opensource-emr,hospital-management-emr,opensource-emr/hospital-management-emr,User,False,
+https://github.com/bluehalo/node-fhir-server-core,bluehalo,node-fhir-server-core,bluehalo/node-fhir-server-core,Organization,True,BlueHalo
+https://github.com/CogStack/OpenGPT,CogStack,OpenGPT,CogStack/OpenGPT,Organization,True,CogStack
+https://github.com/MIT-LCP/eicu-code,MIT-LCP,eicu-code,MIT-LCP/eicu-code,Organization,True,MIT Laboratory for Computational Physiology
+https://github.com/LinuxForHealth/FHIR,LinuxForHealth,FHIR,LinuxForHealth/FHIR,Organization,True,Linux For Health
+https://github.com/fhirbase/fhirbase,fhirbase,fhirbase,fhirbase/fhirbase,Organization,True,Fhirbase
+https://github.com/ehrbase/ehrbase,ehrbase,ehrbase,ehrbase/ehrbase,Organization,True,ehrbase
+https://github.com/johnpaulett/python-hl7,johnpaulett,python-hl7,johnpaulett/python-hl7,User,False,John Paulett
+https://github.com/theislab/ehrapy,theislab,ehrapy,theislab/ehrapy,Organization,True,Theis Lab
+https://github.com/ZhiGroup/Med-BERT,ZhiGroup,Med-BERT,ZhiGroup/Med-BERT,User,False,Degui Zhi
+https://github.com/hapifhir/hapi-hl7v2,hapifhir,hapi-hl7v2,hapifhir/hapi-hl7v2,Organization,True,HAPI FHIR
+https://github.com/awslabs/fhir-works-on-aws-deployment,awslabs,fhir-works-on-aws-deploymen,awslabs/fhir-works-on-aws-deploymen,Organization,True,Amazon Web Services - Labs
+https://github.com/nHapiNET/nHapi,nHapiNET,nHap,nHapiNET/nHap,Organization,True,
+https://github.com/microsoft/hi-ml,microsoft,hi-ml,microsoft/hi-ml,Organization,True,Microsoft
+https://github.com/cqframework/clinical_quality_language,cqframework,clinical_quality_language,cqframework/clinical_quality_language,Organization,True,Clinical Quality Framework
+https://github.com/remotebiosensing/rppg,remotebiosensing,rpp,remotebiosensing/rpp,Organization,True,Remote BIOSENSING
+https://github.com/jamesmullenbach/caml-mimic,jamesmullenbach,caml-mimic,jamesmullenbach/caml-mimic,User,False,James Mullenbach
+https://github.com/medtorch/awesome-healthcare-ai,medtorch,awesome-healthcare-a,medtorch/awesome-healthcare-a,Organization,True,medtorch
+https://github.com/onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM,onejune2018,Awesome-Medical-Healthcare-Dataset-For-LLM,onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM,User,False,JUN
+https://github.com/microsoft/Tools-for-Health-Data-Anonymization,microsoft,Tools-for-Health-Data-Anonymization,microsoft/Tools-for-Health-Data-Anonymization,Organization,True,Microsoft
+https://github.com/b2ihealthcare/snow-owl,b2ihealthcare,snow-owl,b2ihealthcare/snow-owl,Organization,True,"B2i Healthcare, an IQVIA business"
+https://github.com/LibreHealthIO/lh-ehr,LibreHealthIO,lh-ehr,LibreHealthIO/lh-ehr,Organization,True,LibreHealth
+https://github.com/FirelyTeam/spark,FirelyTeam,spark,FirelyTeam/spark,Organization,True,Firely
+https://github.com/NYUMedML/DeepEHR,NYUMedML,DeepEHR,NYUMedML/DeepEHR,Organization,True,"Machine Learning and AI for Medicine at NYU Langone, RazavianLab Research Group"
+https://github.com/NYUMedML/GNN_for_EHR,NYUMedML,GNN_for_EHR,NYUMedML/GNN_for_EHR,Organization,True,"Machine Learning and AI for Medicine at NYU Langone, RazavianLab Research Group"
+https://github.com/GanjinZero/ChineseEHRBert,GanjinZero,ChineseEHRBer,GanjinZero/ChineseEHRBer,User,False,Zheng Yuan
+https://github.com/BiomedSciAI/histocartography,BiomedSciAI,histocartography,BiomedSciAI/histocartography,Organization,True,
+https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical,iamarunbrahma,finetuned-qlora-falcon7b-medical,iamarunbrahma/finetuned-qlora-falcon7b-medical,User,False,Arun Brahma
+https://github.com/crs4/hl7apy,crs4,hl7apy,crs4/hl7apy,Organization,True,CRS4
+https://github.com/healthylaife/MIMIC-IV-Data-Pipeline,healthylaife,MIMIC-IV-Data-Pipeline,healthylaife/MIMIC-IV-Data-Pipeline,Organization,True,healthy lAife
+https://github.com/analysiscenter/cardio,analysiscenter,cardio,analysiscenter/cardio,Organization,True,Data Analysis Center
+https://github.com/mingze-yuan/Awesome-LLM-Healthcare,mingze-yuan,Awesome-LLM-Healthcare,mingze-yuan/Awesome-LLM-Healthcare,User,False,Mingze Yuan
+https://github.com/epic-open-source/seismometer,epic-open-source,seismometer,epic-open-source/seismometer,Organization,True,Epic Open Source
+https://github.com/masslight/ottehr,masslight,ottehr,masslight/ottehr,Organization,True,MassLight
+https://github.com/GoogleCloudPlatform/healthcare-data-harmonization,GoogleCloudPlatform,healthcare-data-harmonization,GoogleCloudPlatform/healthcare-data-harmonization,Organization,True,Google Cloud Platform
+https://github.com/microsoft/fhir-server-samples,microsoft,fhir-server-samples,microsoft/fhir-server-samples,Organization,True,Microsoft
+https://github.com/edaaydinea/AI-Projects-for-Healthcare,edaaydinea,AI-Projects-for-Healthcare,edaaydinea/AI-Projects-for-Healthcare,User,False,Eda AYDIN
+https://github.com/robi56/Survival-Analysis-using-Deep-Learning,robi56,Survival-Analysis-using-Deep-Learnin,robi56/Survival-Analysis-using-Deep-Learnin,User,False,Rabindra Nath Nandi
+https://github.com/owkin/FLamby,owkin,FLamby,owkin/FLamby,Organization,True,Owkin
+https://github.com/StanfordSpezi/Spezi,StanfordSpezi,Spez,StanfordSpezi/Spez,Organization,True,Stanford Spezi
+https://github.com/FirelyTeam/fhirstarters,FirelyTeam,fhirstarters,FirelyTeam/fhirstarters,Organization,True,Firely
+https://github.com/beda-software/fhir-py,beda-software,fhir-py,beda-software/fhir-py,Organization,True,beda.software
+https://github.com/ppazos/cabolabs-ehrserver,ppazos,cabolabs-ehrserver,ppazos/cabolabs-ehrserver,User,False,Pablo Pazos Gutiérrez
+https://github.com/senaranya/HL7,senaranya,HL7,senaranya/HL7,User,False,Aranya Sen
+https://github.com/HealthIntersections/fhirserver,HealthIntersections,fhirserver,HealthIntersections/fhirserver,Organization,True,Health Intersections Pty Ltd
+https://github.com/google/fhir-data-pipes,google,fhir-data-pipes,google/fhir-data-pipes,Organization,True,Google
+https://github.com/apple/FHIRModels,apple,FHIRModels,apple/FHIRModels,Organization,True,Apple
+https://github.com/xliucs/MTTS-CAN,xliucs,MTTS-CAN,xliucs/MTTS-CAN,User,False,Xin Liu
+https://github.com/som-shahlab/ehrshot-benchmark,som-shahlab,ehrshot-benchmark,som-shahlab/ehrshot-benchmark,Organization,True,Dr. Nigam Shah's research group at Stanford Medicine
+https://github.com/samply/blaze,samply,blaze,samply/blaze,Organization,True,Samply
+https://github.com/bowang-lab/ecg-fm,bowang-lab,ecg-fm,bowang-lab/ecg-fm,Organization,True,WangLab @ U of T
+https://github.com/cerner/smart-on-fhir-tutorial,cerner,smart-on-fhir-tutorial,cerner/smart-on-fhir-tutorial,Organization,True,Oracle Cerner
+https://github.com/oehf/ipf,oehf,ipf,oehf/ipf,Organization,True,Open eHealth Foundation
+https://github.com/smart-on-fhir/fhir-parser,smart-on-fhir,fhir-parser,smart-on-fhir/fhir-parser,Organization,True,SMART on FHIR
+https://github.com/Vermonster/fhir-kit-client,Vermonster,fhir-kit-clien,Vermonster/fhir-kit-clien,Organization,True,Vermonster LLC
+https://github.com/cds-hooks/docs,cds-hooks,docs,cds-hooks/docs,Organization,True,CDS Hooks
+https://github.com/inferno-framework/fhir_client,inferno-framework,fhir_clien,inferno-framework/fhir_clien,Organization,True,Inferno Health API Testing Framework
+https://github.com/hapifhir/org.hl7.fhir.core,hapifhir,org.hl7.fhir.core,hapifhir/org.hl7.fhir.core,Organization,True,HAPI FHIR
+https://github.com/inferno-framework/fhir_client,inferno-framework,fhir_clien,inferno-framework/fhir_clien,Organization,True,Inferno Health API Testing Framework
+https://github.com/HL7/fhirpath.js,HL7,fhirpath.js,HL7/fhirpath.js,Organization,True,Health Level Seven International
+https://github.com/smart-on-fhir/Swift-FHIR,smart-on-fhir,Swift-FHIR,smart-on-fhir/Swift-FHIR,Organization,True,SMART on FHIR
+https://github.com/FHIR/sushi,FHIR,sush,FHIR/sush,Organization,True,FHIR
+https://github.com/mne-tools/mne-cpp,mne-tools,mne-cpp,mne-tools/mne-cpp,Organization,True,MNE tools for MEG and EEG data analysis
+https://github.com/bluehalo/graphql-fhir,bluehalo,graphql-fhir,bluehalo/graphql-fhir,Organization,True,BlueHalo
+https://github.com/bluehalo/node-fhir-server-mongo,bluehalo,node-fhir-server-mongo,bluehalo/node-fhir-server-mongo,Organization,True,BlueHalo
+https://github.com/microsoft/iomt-fhir,microsoft,iomt-fhir,microsoft/iomt-fhir,Organization,True,Microsoft
+https://github.com/dotimplement/HealthChain,dotimplement,HealthChain,dotimplement/HealthChain,Organization,True,.implement
+https://github.com/RasaHQ/medicare_locator,RasaHQ,medicare_locator,RasaHQ/medicare_locator,Organization,True,Rasa
+https://github.com/BiomedSciAI/fuse-med-ml,BiomedSciAI,fuse-med-ml,BiomedSciAI/fuse-med-ml,Organization,True,
+https://github.com/ZhiGroup/pytorch_ehr,ZhiGroup,pytorch_ehr,ZhiGroup/pytorch_ehr,User,False,Degui Zhi
+https://github.com/cerner/fhir.cerner.com,cerner,fhir.cerner.com,cerner/fhir.cerner.com,Organization,True,Oracle Cerner
+https://github.com/microsoft/fhir-codegen,microsoft,fhir-codegen,microsoft/fhir-codegen,Organization,True,Microsoft
+https://github.com/stanfordmlgroup/MedAgentBench,stanfordmlgroup,MedAgentBench,stanfordmlgroup/MedAgentBench,Organization,True,Stanford Machine Learning Group
+https://github.com/brynlewis/C-CDA_Viewer,brynlewis,C-CDA_Viewer,brynlewis/C-CDA_Viewer,User,False,Bryn Lewis
+https://github.com/MIT-LCP/mimic-omop,MIT-LCP,mimic-omop,MIT-LCP/mimic-omop,Organization,True,MIT Laboratory for Computational Physiology
+https://github.com/OHDSI/Achilles,OHDSI,Achilles,OHDSI/Achilles,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/StanfordMIMI/Merlin,StanfordMIMI,Merlin,StanfordMIMI/Merlin,Organization,True,Stanford MIMI Lab
+https://github.com/dcarbone/php-fhir,dcarbone,php-fhir,dcarbone/php-fhir,User,False,Daniel Carbone
+https://github.com/McJackTang/MMPD_rPPG_dataset,McJackTang,MMPD_rPPG_datase,McJackTang/MMPD_rPPG_datase,User,False,Jack Tang
+https://github.com/smart-on-fhir/Swift-SMART,smart-on-fhir,Swift-SMART,smart-on-fhir/Swift-SMART,Organization,True,SMART on FHIR
+https://github.com/StanfordBDHG/LLMonFHIR,StanfordBDHG,LLMonFHIR,StanfordBDHG/LLMonFHIR,Organization,True,Stanford Biodesign Digital Health
+https://github.com/Ahryman40k/typescript-fhir-types,Ahryman40k,typescript-fhir-types,Ahryman40k/typescript-fhir-types,User,False,Ahryman40k
+https://github.com/fhir-fuel/awesome-FHIR,fhir-fuel,awesome-FHIR,fhir-fuel/awesome-FHIR,Organization,True,
+https://github.com/goinvo/EHR,goinvo,EHR,goinvo/EHR,Organization,True,GoInvo
+https://github.com/ruby-hl7/ruby-hl7,ruby-hl7,ruby-hl7,ruby-hl7/ruby-hl7,Organization,True,Ruby HL7 Library
+https://github.com/StanfordSpezi/SpeziTemplateApplication,StanfordSpezi,SpeziTemplateApplication,StanfordSpezi/SpeziTemplateApplication,Organization,True,Stanford Spezi
+https://github.com/shamil-t/ehr-blockchain,shamil-t,ehr-blockchain,shamil-t/ehr-blockchain,User,False,SHAMIL T
+https://github.com/KaiHe-better/LLM-for-Healthcare,KaiHe-better,LLM-for-Healthcare,KaiHe-better/LLM-for-Healthcare,User,False,Kai He
+https://github.com/uf-hobi-informatics-lab/GatorTron,uf-hobi-informatics-lab,GatorTron,uf-hobi-informatics-lab/GatorTron,Organization,True,uf-hobi-informatics-lab
+https://github.com/MIT-LCP/mimic-website,MIT-LCP,mimic-website,MIT-LCP/mimic-website,Organization,True,MIT Laboratory for Computational Physiology
+https://github.com/FHIR/sql-on-fhir-v2,FHIR,sql-on-fhir-v2,FHIR/sql-on-fhir-v2,Organization,True,FHIR
+https://github.com/hitgeek/simple-hl7,hitgeek,simple-hl7,hitgeek/simple-hl7,User,False,Bob Rupp
+https://github.com/OpenIntegrationEngine/engine,OpenIntegrationEngine,engine,OpenIntegrationEngine/engine,Organization,True,Open Integration Engine
+https://github.com/MLBazaar/Cardea,MLBazaar,Cardea,MLBazaar/Cardea,Organization,True,MLBazaar
+https://github.com/Refactoring/ECGToolkit,Refactoring,ECGToolk,Refactoring/ECGToolk,User,False,Refactoring
+https://github.com/HCA-Healthcare/elixir-hl7,HCA-Healthcare,elixir-hl7,HCA-Healthcare/elixir-hl7,Organization,True,HCA Healthcare
+https://github.com/LHNCBC/lforms,LHNCBC,lforms,LHNCBC/lforms,Organization,True,Lister Hill National Center for Biomedical Communications
+https://github.com/llSourcell/AI_for_healthcare,llSourcell,AI_for_healthcare,llSourcell/AI_for_healthcare,User,False,Siraj Raval
+https://github.com/cerner/bunsen,cerner,bunsen,cerner/bunsen,Organization,True,Oracle Cerner
+https://github.com/OHDSI/ETL-Synthea,OHDSI,ETL-Synthea,OHDSI/ETL-Synthea,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/microsoft/healthkit-on-fhir,microsoft,healthkit-on-fhir,microsoft/healthkit-on-fhir,Organization,True,Microsoft
+https://github.com/intervention-engine/fhir,intervention-engine,fhir,intervention-engine/fhir,Organization,True,
+https://github.com/deoxxa/hl7,deoxxa,hl7,deoxxa/hl7,User,False,Conrad Pankoff
+https://github.com/lantanagroup/FHIR.js,lantanagroup,FHIR.js,lantanagroup/FHIR.js,Organization,True,Lantana Consulting Group
+https://github.com/google/fhir-examples,google,fhir-examples,google/fhir-examples,Organization,True,Google
+https://github.com/aehrc/pathling,aehrc,pathlin,aehrc/pathlin,Organization,True,The Australian e-Health Research Centre
+https://github.com/Project-MONAI/monai-deploy-app-sdk,Project-MONAI,monai-deploy-app-sdk,Project-MONAI/monai-deploy-app-sdk,Organization,True,Project MONAI
+https://github.com/wshi83/EhrAgent,wshi83,EhrAgen,wshi83/EhrAgen,User,False,Wenqi Shi
+https://github.com/smart-on-fhir/api-server,smart-on-fhir,api-server,smart-on-fhir/api-server,Organization,True,SMART on FHIR
+https://github.com/ballerina-platform/fhir-tools,ballerina-platform,fhir-tools,ballerina-platform/fhir-tools,Organization,True,
+https://github.com/BarnesLab/Patient2Vec,BarnesLab,Patient2Vec,BarnesLab/Patient2Vec,Organization,True,Barnes Research Group
+https://github.com/1uphealth/fhir-react,1uphealth,fhir-reac,1uphealth/fhir-reac,Organization,True,1upHealth
+https://github.com/google/ehr-predictions,google,ehr-predictions,google/ehr-predictions,Organization,True,Google
+https://github.com/Project-MONAI/monai-deploy,Project-MONAI,monai-deploy,Project-MONAI/monai-deploy,Organization,True,Project MONAI
+https://github.com/ballerina-platform/module-ballerinax-health.fhir.r4,ballerina-platform,module-ballerinax-health.fhir.r4,ballerina-platform/module-ballerinax-health.fhir.r4,Organization,True,
+https://github.com/ballerina-platform/module-ballerinax-health.fhir.templates,ballerina-platform,module-ballerinax-health.fhir.templates,ballerina-platform/module-ballerinax-health.fhir.templates,Organization,True,
+https://github.com/yashverma9/AI-Blockchain-Electronic-Health-Records-Management-System,yashverma9,AI-Blockchain-Electronic-Health-Records-Management-System,yashverma9/AI-Blockchain-Electronic-Health-Records-Management-System,User,False,
+https://github.com/apache/ctakes,apache,ctakes,apache/ctakes,Organization,True,The Apache Software Foundation
+https://github.com/ballerina-platform/module-ballerinax-health.hl7v2,ballerina-platform,module-ballerinax-health.hl7v2,ballerina-platform/module-ballerinax-health.hl7v2,Organization,True,
+https://github.com/ballerina-attic/hl7-tools,ballerina-attic,hl7-tools,ballerina-attic/hl7-tools,Organization,True,
+https://github.com/SaravananSubramanian/hl7,SaravananSubramanian,hl7,SaravananSubramanian/hl7,User,False,Saravanan Subramanian
+https://github.com/gematik/api-erp,gematik,api-erp,gematik/api-erp,Organization,True,gematik GmbH
+https://github.com/LinuxForHealth/hl7v2-fhir-converter,LinuxForHealth,hl7v2-fhir-converter,LinuxForHealth/hl7v2-fhir-converter,Organization,True,Linux For Health
+https://github.com/beda-software/fhir-emr,beda-software,fhir-emr,beda-software/fhir-emr,Organization,True,beda.software
+https://github.com/GinoCanessa/FhirDevVideoNotes,GinoCanessa,FhirDevVideoNotes,GinoCanessa/FhirDevVideoNotes,User,False,Gino Canessa
+https://github.com/samply/golang-fhir-models,samply,golang-fhir-models,samply/golang-fhir-models,Organization,True,Samply
+https://github.com/som-shahlab/medalign,som-shahlab,medalign,som-shahlab/medalign,Organization,True,Dr. Nigam Shah's research group at Stanford Medicine
+https://github.com/segfault/ruby-hl7,segfault,ruby-hl7,segfault/ruby-hl7,User,False,Mark Guzman
+https://github.com/MLD3/FIDDLE,MLD3,FIDDLE,MLD3/FIDDLE,Organization,True,"MLD3: Machine Learning for Data-Driven Decisions, University of Michigan"
+https://github.com/microsoft/OpenHack-FHIR,microsoft,OpenHack-FHIR,microsoft/OpenHack-FHIR,Organization,True,Microsoft
+https://github.com/Doctor-One/doctor-dok,Doctor-One,doctor-dok,Doctor-One/doctor-dok,Organization,True,Doctor.One
+https://github.com/onc-healthit/inferno-community,onc-healthit,inferno-community,onc-healthit/inferno-community,Organization,True,Office of the National Coordinator for Health IT
+https://github.com/HL7/fhir-ig-publisher,HL7,fhir-ig-publisher,HL7/fhir-ig-publisher,Organization,True,Health Level Seven International
+https://github.com/google/cql,google,cql,google/cql,Organization,True,Google
+https://github.com/google/fhir-py,google,fhir-py,google/fhir-py,Organization,True,Google
+https://github.com/glee4810/EHRSQL,glee4810,EHRSQL,glee4810/EHRSQL,User,False,Gyubok Lee
+https://github.com/callahantiff/OMOP2OBO,callahantiff,OMOP2OBO,callahantiff/OMOP2OBO,User,False,Tiffany J. Callahan
+https://github.com/helsenorge/structor-archived,helsenorge,structor-archived,helsenorge/structor-archived,Organization,True,Helsenorge
+https://github.com/helsenorge/structor-archived,helsenorge,structor-archived,helsenorge/structor-archived,Organization,True,Helsenorge
+https://github.com/gml16/rl-medical,gml16,rl-medical,gml16/rl-medical,User,False,Guy Leroy
+https://github.com/CogStack/CogStack-SemEHR,CogStack,CogStack-SemEHR,CogStack/CogStack-SemEHR,Organization,True,CogStack
+https://github.com/smart-on-fhir/smart-on-fhir.github.io,smart-on-fhir,smart-on-fhir.github.io,smart-on-fhir/smart-on-fhir.github.io,Organization,True,SMART on FHIR
+https://github.com/google/fhir-gateway,google,fhir-gateway,google/fhir-gateway,Organization,True,Google
+https://github.com/node-on-fhir/node-on-fhir-v2,node-on-fhir,node-on-fhir-v2,node-on-fhir/node-on-fhir-v2,Organization,True,Node on FHIR
+https://github.com/inferno-framework/fhir_models,inferno-framework,fhir_models,inferno-framework/fhir_models,Organization,True,Inferno Health API Testing Framework
+https://github.com/dib0/NHapiTools,dib0,NHapiTools,dib0/NHapiTools,User,False,Bas van den Berg
+https://github.com/inferno-framework/fhir_models,inferno-framework,fhir_models,inferno-framework/fhir_models,Organization,True,Inferno Health API Testing Framework
+https://github.com/VectorInstitute/cyclops,VectorInstitute,cyclops,VectorInstitute/cyclops,Organization,True,Vector Institute
+https://github.com/microsoft/FHIR-Analytics-Pipelines,microsoft,FHIR-Analytics-Pipelines,microsoft/FHIR-Analytics-Pipelines,Organization,True,Microsoft
+https://github.com/baeseongsu/ehrxqa,baeseongsu,ehrxqa,baeseongsu/ehrxqa,User,False,baeseongsu
+https://github.com/OHDSI/MIMIC,OHDSI,MIMIC,OHDSI/MIMIC,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/Efferent-Health/HL7-V2,Efferent-Health,HL7-V2,Efferent-Health/HL7-V2,Organization,True,"Efferent, Inc."
+https://github.com/Kartha-AI/agentcare-mcp,Kartha-AI,agentcare-mcp,Kartha-AI/agentcare-mcp,Organization,True,Kartha
+https://github.com/ycq091044/SafeDrug,ycq091044,SafeDru,ycq091044/SafeDru,User,False,Chaoqi Yang
+https://github.com/dib0/HL7Fuse,dib0,HL7Fuse,dib0/HL7Fuse,User,False,Bas van den Berg
+https://github.com/CDCgov/prime-reportstream,CDCgov,prime-reportstream,CDCgov/prime-reportstream,Organization,True,Centers for Disease Control and Prevention
+https://github.com/FHIR/sql-on-fhir,FHIR,sql-on-fhir,FHIR/sql-on-fhir,Organization,True,FHIR
+https://github.com/Medical-Event-Data-Standard/meds,Medical-Event-Data-Standard,meds,Medical-Event-Data-Standard/meds,Organization,True,Medical Event Data Standard
+https://github.com/rvandewater/YAIB,rvandewater,YAIB,rvandewater/YAIB,User,False,Robin van de Water
+https://github.com/kennethleungty/Generative-AI-Pharmacist,kennethleungty,Generative-AI-Pharmacis,kennethleungty/Generative-AI-Pharmacis,User,False,Kenneth Leung
+https://github.com/fhir-crucible/crucible,fhir-crucible,crucible,fhir-crucible/crucible,Organization,True,
+https://github.com/smart-on-fhir/fhir-bulk-data-docs,smart-on-fhir,fhir-bulk-data-docs,smart-on-fhir/fhir-bulk-data-docs,Organization,True,SMART on FHIR
+https://github.com/shihjay2/nosh2,shihjay2,nosh2,shihjay2/nosh2,User,False,"Michael Shihjay Chen, MD"
+https://github.com/geniusrise/awesome-healthcare-datasets,geniusrise,awesome-healthcare-datasets,geniusrise/awesome-healthcare-datasets,Organization,True,geniusrise
+https://github.com/openmrs/openmrs-module-fhir2,openmrs,openmrs-module-fhir2,openmrs/openmrs-module-fhir2,Organization,True,OpenMRS
+https://github.com/microsoft/FhirBlaze,microsoft,FhirBlaze,microsoft/FhirBlaze,Organization,True,Microsoft
+https://github.com/wanghaisheng/fhir-cn,wanghaisheng,fhir-cn,wanghaisheng/fhir-cn,User,False,HeisenBerg?
+https://github.com/cqframework/cql-execution,cqframework,cql-execution,cqframework/cql-execution,Organization,True,Clinical Quality Framework
+https://github.com/HL7/v2-to-fhir,HL7,v2-to-fhir,HL7/v2-to-fhir,Organization,True,Health Level Seven International
+https://github.com/microsoft/fhir-proxy,microsoft,fhir-proxy,microsoft/fhir-proxy,Organization,True,Microsoft
+https://github.com/nikit0ns/artificial-intelligence-library,nikit0ns,artificial-intelligence-library,nikit0ns/artificial-intelligence-library,User,False,Nikita Kasyanenko
+https://github.com/ivanwilliammd/satusehat-integration,ivanwilliammd,satusehat-integration,ivanwilliammd/satusehat-integration,User,False,Ivan William Harsono
+https://github.com/UMEssen/FHIR-PYrate,UMEssen,FHIR-PYrate,UMEssen/FHIR-PYrate,Organization,True,University Medicine Essen
+https://github.com/OHDSI/Athena,OHDSI,Athena,OHDSI/Athena,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/yahskapar/MA-rPPG-Video-Toolbox,yahskapar,MA-rPPG-Video-Toolbox,yahskapar/MA-rPPG-Video-Toolbox,User,False,Akshay Paruchuri
+https://github.com/leandromineti/awesome-healthmetrics,leandromineti,awesome-healthmetrics,leandromineti/awesome-healthmetrics,User,False,Leandro Mineti
+https://github.com/microsoft/azure-health-data-services-toolkit,microsoft,azure-health-data-services-toolk,microsoft/azure-health-data-services-toolk,Organization,True,Microsoft
+https://github.com/OHDSI/Criteria2Query,OHDSI,Criteria2Query,OHDSI/Criteria2Query,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/instamed/healthcare-payments-blockchain,instamed,healthcare-payments-blockchain,instamed/healthcare-payments-blockchain,Organization,True,InstaMed
+https://github.com/beda-software/fhirpath-py,beda-software,fhirpath-py,beda-software/fhirpath-py,Organization,True,beda.software
+https://github.com/CMSgov/beneficiary-fhir-data,CMSgov,beneficiary-fhir-data,CMSgov/beneficiary-fhir-data,Organization,True,Centers for Medicare & Medicaid Services
+https://github.com/cqframework/CQL-Formatting-and-Usage-Wiki,cqframework,CQL-Formatting-and-Usage-Wik,cqframework/CQL-Formatting-and-Usage-Wik,Organization,True,Clinical Quality Framework
+https://github.com/databricks-industry-solutions/smolder,databricks-industry-solutions,smolder,databricks-industry-solutions/smolder,Organization,True,Databricks Industry Solutions
+https://github.com/cqframework/cqf-ruler,cqframework,cqf-ruler,cqframework/cqf-ruler,Organization,True,Clinical Quality Framework
+https://github.com/RobHolme/vscode-hl7tools,RobHolme,vscode-hl7tools,RobHolme/vscode-hl7tools,User,False,Rob Holme
+https://github.com/microsoft/clinical-self-verification,microsoft,clinical-self-verification,microsoft/clinical-self-verification,Organization,True,Microsoft
+https://github.com/microsoft/ResponsibleAIAccelerator,microsoft,ResponsibleAIAccelerator,microsoft/ResponsibleAIAccelerator,Organization,True,Microsoft
+https://github.com/FHIR/documents,FHIR,documents,FHIR/documents,Organization,True,FHIR
+https://github.com/Optum/CyFHIR,Optum,CyFHIR,Optum/CyFHIR,Organization,True,Optum
+https://github.com/rOpenHealth/rEHR,rOpenHealth,rEHR,rOpenHealth/rEHR,Organization,True,rOpenHealth
+https://github.com/CogStack/Foresight,CogStack,Foresigh,CogStack/Foresigh,Organization,True,CogStack
+https://github.com/Zzocker/EHR-on-blockchain,Zzocker,EHR-on-blockchain,Zzocker/EHR-on-blockchain,User,False,Pritam Singh
+https://github.com/google/bulk_fhir_tools,google,bulk_fhir_tools,google/bulk_fhir_tools,Organization,True,Google
+https://github.com/opensrp/fhircore,opensrp,fhircore,opensrp/fhircore,Organization,True,OpenSRP
+https://github.com/Outburn-IL/fume-community,Outburn-IL,fume-community,Outburn-IL/fume-community,Organization,True,Outburn
+https://github.com/jmandel/health-record-mcp,jmandel,health-record-mcp,jmandel/health-record-mcp,User,False,Josh Mandel
+https://github.com/cerner/ascvd-risk-calculator,cerner,ascvd-risk-calculator,cerner/ascvd-risk-calculator,Organization,True,Oracle Cerner
+https://github.com/IoBT-VISTEC/EEGWaveNet,IoBT-VISTEC,EEGWaveNe,IoBT-VISTEC/EEGWaveNe,User,False,INTERFACES
+https://github.com/microsoft/Graphir,microsoft,Graphir,microsoft/Graphir,Organization,True,Microsoft
+https://github.com/BD2KOnFHIR/NLP2FHIR,BD2KOnFHIR,NLP2FHIR,BD2KOnFHIR/NLP2FHIR,Organization,True,
+https://github.com/FlixCoder/fhir-sdk,FlixCoder,fhir-sdk,FlixCoder/fhir-sdk,User,False,Flix
+https://github.com/ehrbase/openEHR_SDK,ehrbase,openEHR_SDK,ehrbase/openEHR_SDK,Organization,True,ehrbase
+https://github.com/fedbiomed/fedbiomed,fedbiomed,fedbiomed,fedbiomed/fedbiomed,Organization,True,Fed-BioMed
+https://github.com/fernandojsg/hl7-dictionary,fernandojsg,hl7-dictionary,fernandojsg/hl7-dictionary,User,False,Fernando Serrano
+https://github.com/Kailona/ehr,Kailona,ehr,Kailona/ehr,Organization,True,Kailona
+https://github.com/rbren/fhir-swagger,rbren,fhir-swagger,rbren/fhir-swagger,User,False,Robert Brennan
+https://github.com/MatthewVita/node-hl7-complete,MatthewVita,node-hl7-complete,MatthewVita/node-hl7-complete,User,False,mvim
+https://github.com/openmrs/openmrs-esm-patient-chart,openmrs,openmrs-esm-patient-char,openmrs/openmrs-esm-patient-char,Organization,True,OpenMRS
+https://github.com/dolphin-dev/OpenDolphin,dolphin-dev,OpenDolphin,dolphin-dev/OpenDolphin,User,False,Open Dolphin
+https://github.com/srdc/cda2fhir,srdc,cda2fhir,srdc/cda2fhir,Organization,True,SRDC Software Research & Development and Consultancy Corp.
+https://github.com/bonfhir/bonfhir,bonfhir,bonfhir,bonfhir/bonfhir,Organization,True,Bonfhir
+https://github.com/Lorex/FHIR-Universal-Conversion-Kit,Lorex,FHIR-Universal-Conversion-K,Lorex/FHIR-Universal-Conversion-K,User,False,Lorex
+https://github.com/ropensci-archive/cleanEHR,ropensci-archive,cleanEHR,ropensci-archive/cleanEHR,Organization,True,rOpenSci Archive
+https://github.com/edenlabllc/rmk,edenlabllc,rmk,edenlabllc/rmk,Organization,True,Edenlab
+https://github.com/the-momentum/healthstack,the-momentum,healthstack,the-momentum/healthstack,Organization,True,Momentum
+https://github.com/clinical-meteor/meteor-on-fhir,clinical-meteor,meteor-on-fhir,clinical-meteor/meteor-on-fhir,Organization,True,clinical-meteor (deprecated)
+https://github.com/Alvearie/keycloak-extensions-for-fhir,Alvearie,keycloak-extensions-for-fhir,Alvearie/keycloak-extensions-for-fhir,Organization,True,Alvearie
+https://github.com/google/fhir-app-examples,google,fhir-app-examples,google/fhir-app-examples,Organization,True,Google
+https://github.com/google/fhir-dbt-analytics,google,fhir-dbt-analytics,google/fhir-dbt-analytics,Organization,True,Google
+https://github.com/flexpa/mcp-fhir,flexpa,mcp-fhir,flexpa/mcp-fhir,Organization,True,Flexpa
+https://github.com/arkhn-oss/pyrog,arkhn-oss,pyro,arkhn-oss/pyro,Organization,True,Arkhn OSS
+https://github.com/aws-samples/amazon-comprehend-medical-fhir-integration,aws-samples,amazon-comprehend-medical-fhir-integration,aws-samples/amazon-comprehend-medical-fhir-integration,Organization,True,AWS Samples
+https://github.com/Vermonster/fhir-kit-create-react,Vermonster,fhir-kit-create-reac,Vermonster/fhir-kit-create-reac,Organization,True,Vermonster LLC
+https://github.com/obi-ml-public/ehr_deidentification,obi-ml-public,ehr_deidentification,obi-ml-public/ehr_deidentification,Organization,True,One Brave Idea
+https://github.com/FirelyTeam/RonFHIR,FirelyTeam,RonFHIR,FirelyTeam/RonFHIR,Organization,True,Firely
+https://github.com/medkey-org/medkey,medkey-org,medkey,medkey-org/medkey,Organization,True,Medkey Solutions
+https://github.com/smilecdr/FHIR.ts,smilecdr,FHIR.ts,smilecdr/FHIR.ts,Organization,True,Smile Digital Health
+https://github.com/uaanchorage/GSoC,uaanchorage,GSoC,uaanchorage/GSoC,Organization,True,University of Alaska Anchorage
+https://github.com/OHDSI/ETL-CDMBuilder,OHDSI,ETL-CDMBuilder,OHDSI/ETL-CDMBuilder,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/nextgenhealthcare/fhir-example-channels,nextgenhealthcare,fhir-example-channels,nextgenhealthcare/fhir-example-channels,Organization,True,NextGen Healthcare
+https://github.com/smart-on-fhir/fred,smart-on-fhir,fred,smart-on-fhir/fred,Organization,True,SMART on FHIR
+https://github.com/aphp/Cohort360-FrontEnd,aphp,Cohort360-FrontEnd,aphp/Cohort360-FrontEnd,Organization,True,Greater Paris University Hospitals (AP-HP)
+https://github.com/hapifhir/fhir-tutorial,hapifhir,fhir-tutorial,hapifhir/fhir-tutorial,Organization,True,HAPI FHIR
+https://github.com/ironbridgecorp/hl7-standard,ironbridgecorp,hl7-standard,ironbridgecorp/hl7-standard,User,False,Iron Bridge
+https://github.com/Cicatriiz/healthcare-mcp-public,Cicatriiz,healthcare-mcp-public,Cicatriiz/healthcare-mcp-public,User,False,Forrest Babola
+https://github.com/LHNCBC/lforms-fhir-app,LHNCBC,lforms-fhir-app,LHNCBC/lforms-fhir-app,Organization,True,Lister Hill National Center for Biomedical Communications
+https://github.com/google/kotlin-fhir,google,kotlin-fhir,google/kotlin-fhir,Organization,True,Google
+https://github.com/wso2/fhir-mcp-server,wso2,fhir-mcp-server,wso2/fhir-mcp-server,Organization,True,WSO2
+https://github.com/smart-on-fhir/hapi,smart-on-fhir,hap,smart-on-fhir/hap,Organization,True,SMART on FHIR
+https://github.com/amida-tech/hl7,amida-tech,hl7,amida-tech/hl7,Organization,True,Amida Technology Solutions
+https://github.com/gematik/api-ti-messenger,gematik,api-ti-messenger,gematik/api-ti-messenger,Organization,True,gematik GmbH
+https://github.com/microsoft/fhir-loader,microsoft,fhir-loader,microsoft/fhir-loader,Organization,True,Microsoft
+https://github.com/AI4HealthUOL/ECG-MIMIC,AI4HealthUOL,ECG-MIMIC,AI4HealthUOL/ECG-MIMIC,Organization,True,
+https://github.com/dermatologist/pyomop,dermatologist,pyomop,dermatologist/pyomop,User,False,Bell Eapen
+https://github.com/spiros/chronological-map-phenotypes,spiros,chronological-map-phenotypes,spiros/chronological-map-phenotypes,User,False,Spiros Denaxas
+https://github.com/artifacthealth/hl7parser,artifacthealth,hl7parser,artifacthealth/hl7parser,Organization,True,Artifact Health
+https://github.com/fhirpack/fhirpack,fhirpack,fhirpack,fhirpack/fhirpack,Organization,True,FHIR Python Analysis Conversion Kit (FHIRPACK)
+https://github.com/RedoxEngine/redox-hl7-v2,RedoxEngine,redox-hl7-v2,RedoxEngine/redox-hl7-v2,Organization,True,Redox
+https://github.com/AHRQ-CDS/AHRQ-CDS-Connect-Authoring-Tool,AHRQ-CDS,AHRQ-CDS-Connect-Authoring-Tool,AHRQ-CDS/AHRQ-CDS-Connect-Authoring-Tool,Organization,True,
+https://github.com/smart-on-fhir/fhir-viewer,smart-on-fhir,fhir-viewer,smart-on-fhir/fhir-viewer,Organization,True,SMART on FHIR
+https://github.com/kind-lab/mimic-fhir,kind-lab,mimic-fhir,kind-lab/mimic-fhir,Organization,True,KinD lab
+https://github.com/USC-InfoLab/NeuroGNN,USC-InfoLab,NeuroGNN,USC-InfoLab/NeuroGNN,Organization,True,"InfoLab, University of Southern California"
+https://github.com/HL7/fhir-shorthand,HL7,fhir-shorthand,HL7/fhir-shorthand,Organization,True,Health Level Seven International
+https://github.com/FHIR/fhir-test-cases,FHIR,fhir-test-cases,FHIR/fhir-test-cases,Organization,True,FHIR
+https://github.com/canvas-medical/fhirstarter,canvas-medical,fhirstarter,canvas-medical/fhirstarter,Organization,True,Canvas Medical
+https://github.com/OHDSI/Eunomia,OHDSI,Eunomia,OHDSI/Eunomia,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/the-momentum/apple-health-mcp-server,the-momentum,apple-health-mcp-server,the-momentum/apple-health-mcp-server,Organization,True,Momentum
+https://github.com/VectorInstitute/FL4Health,VectorInstitute,FL4Health,VectorInstitute/FL4Health,Organization,True,Vector Institute
+https://github.com/EdiNation/OpenEDI-Specification,EdiNation,OpenEDI-Specification,EdiNation/OpenEDI-Specification,User,False,
+https://github.com/aehrc/smart-forms,aehrc,smart-forms,aehrc/smart-forms,Organization,True,The Australian e-Health Research Centre
+https://github.com/IBMStreams/streamsx.health,IBMStreams,streamsx.health,IBMStreams/streamsx.health,Organization,True,IBM Streams
+https://github.com/OxWearables/stepcount,OxWearables,stepcoun,OxWearables/stepcoun,Organization,True,Oxford Wearables Group
+https://github.com/USM-CHU-FGuyon/BlendedICU,USM-CHU-FGuyon,BlendedICU,USM-CHU-FGuyon/BlendedICU,User,False,Matthieu Oliver
+https://github.com/yhzhu99/covid-ehr-benchmarks,yhzhu99,covid-ehr-benchmarks,yhzhu99/covid-ehr-benchmarks,User,False,Yinghao Zhu
+https://github.com/FreeHealth/freehealth,FreeHealth,freehealth,FreeHealth/freehealth,Organization,True,FreeHealth
+https://github.com/MedShake/MedShakeEHR-base,MedShake,MedShakeEHR-base,MedShake/MedShakeEHR-base,User,False,MedShake
+https://github.com/MayJuun/fhir,MayJuun,fhir,MayJuun/fhir,Organization,True,MayJuun
+https://github.com/HCA-Healthcare/elixir-mllp,HCA-Healthcare,elixir-mllp,HCA-Healthcare/elixir-mllp,Organization,True,HCA Healthcare
+https://github.com/nlpie/biomedicus2,nlpie,biomedicus2,nlpie/biomedicus2,Organization,True,Natural Language Processing / Information Extraction (NLP/IE) Program
+https://github.com/HospitalRun/hospitalrun-core,HospitalRun,hospitalrun-core,HospitalRun/hospitalrun-core,Organization,True,HospitalRun
+https://github.com/AlexSWong/COVID-Net,AlexSWong,COVID-Ne,AlexSWong/COVID-Ne,User,False,
+https://github.com/srdc/onfhir,srdc,onfhir,srdc/onfhir,Organization,True,SRDC Software Research & Development and Consultancy Corp.
+https://github.com/w3c/hcls-fhir-rdf,w3c,hcls-fhir-rdf,w3c/hcls-fhir-rdf,Organization,True,World Wide Web Consortium
+https://github.com/whaleloops/TransformEHR,whaleloops,TransformEHR,whaleloops/TransformEHR,User,False,
+https://github.com/rafiattrach/m3,rafiattrach,m3,rafiattrach/m3,User,False,Rafi Al Attrach
+https://github.com/HicServices/RDMP,HicServices,RDMP,HicServices/RDMP,Organization,True,
+https://github.com/openmrs/openmrs-module-fhir,openmrs,openmrs-module-fhir,openmrs/openmrs-module-fhir,Organization,True,OpenMRS
+https://github.com/NIH-NCPI/fhir-101,NIH-NCPI,fhir-101,NIH-NCPI/fhir-101,Organization,True,NIH Cloud Platform Interoperability Program
+https://github.com/jcomellas/ex_hl7,jcomellas,ex_hl7,jcomellas/ex_hl7,User,False,Juan Jose Comellas
+https://github.com/TopologyHealth/SMARTerFHIR,TopologyHealth,SMARTerFHIR,TopologyHealth/SMARTerFHIR,Organization,True,Topology Health
+https://github.com/tegin/medical-fhir,tegin,medical-fhir,tegin/medical-fhir,Organization,True,
+https://github.com/cqframework/clinical-reasoning,cqframework,clinical-reasonin,cqframework/clinical-reasonin,Organization,True,Clinical Quality Framework
+https://github.com/dermatologist/fhiry,dermatologist,fhiry,dermatologist/fhiry,User,False,Bell Eapen
+https://github.com/aphp/eds-scikit,aphp,eds-scik,aphp/eds-scik,Organization,True,Greater Paris University Hospitals (AP-HP)
+https://github.com/flexpa/llm-fhir-eval,flexpa,llm-fhir-eval,flexpa/llm-fhir-eval,Organization,True,Flexpa
+https://github.com/smart-on-fhir/fhir-server-dashboard,smart-on-fhir,fhir-server-dashboard,smart-on-fhir/fhir-server-dashboard,Organization,True,SMART on FHIR
+https://github.com/fhircat/CORD-19-on-FHIR,fhircat,CORD-19-on-FHIR,fhircat/CORD-19-on-FHIR,Organization,True,FHIRCat
+https://github.com/flexpa/sero,flexpa,sero,flexpa/sero,Organization,True,Flexpa
+https://github.com/FirelyTeam/firely-net-common,FirelyTeam,firely-net-common,FirelyTeam/firely-net-common,Organization,True,Firely
+https://github.com/medic/L7,medic,L7,medic/L7,Organization,True,Medic
+https://github.com/wardle/hades,wardle,hades,wardle/hades,User,False,Mark Wardle
+https://github.com/NVIDIA/clara-dicom-adapter,NVIDIA,clara-dicom-adapter,NVIDIA/clara-dicom-adapter,Organization,True,NVIDIA Corporation
+https://github.com/elimuinformatics/vcf2fhir,elimuinformatics,vcf2fhir,elimuinformatics/vcf2fhir,Organization,True,Elimu Informatics
+https://github.com/HL7/US-Core,HL7,US-Core,HL7/US-Core,Organization,True,Health Level Seven International
+https://github.com/akello-io/akello,akello-io,akello,akello-io/akello,Organization,True,Akello
+https://github.com/CMSgov/qpp-conversion-tool,CMSgov,qpp-conversion-tool,CMSgov/qpp-conversion-tool,Organization,True,Centers for Medicare & Medicaid Services
+https://github.com/liuqidong07/LEADER-pytorch,liuqidong07,LEADER-pytorch,liuqidong07/LEADER-pytorch,User,False,Qidong Liu
+https://github.com/awslabs/fhir-works-on-aws-interface,awslabs,fhir-works-on-aws-interface,awslabs/fhir-works-on-aws-interface,Organization,True,Amazon Web Services - Labs
+https://github.com/aws-solutions/fhir-works-on-aws,aws-solutions,fhir-works-on-aws,aws-solutions/fhir-works-on-aws,Organization,True,
+https://github.com/baowaly/SynthEHR,baowaly,SynthEHR,baowaly/SynthEHR,User,False,Mrinal Kanti Baowaly
+https://github.com/inferno-framework/fhir-validator-app,inferno-framework,fhir-validator-app,inferno-framework/fhir-validator-app,Organization,True,Inferno Health API Testing Framework
+https://github.com/VectorInstitute/odyssey,VectorInstitute,odyssey,VectorInstitute/odyssey,Organization,True,Vector Institute
+https://github.com/harshthakkar2603/Blockchain_EHR,harshthakkar2603,Blockchain_EHR,harshthakkar2603/Blockchain_EHR,User,False,Harsh Thakkar
+https://github.com/hapifhir/org.hl7.fhir.validator-wrapper,hapifhir,org.hl7.fhir.validator-wrapper,hapifhir/org.hl7.fhir.validator-wrapper,Organization,True,HAPI FHIR
+https://github.com/ExpertOpsAI/ModelLibrary,ExpertOpsAI,ModelLibrary,ExpertOpsAI/ModelLibrary,Organization,True,AI Workforce Global Community
+https://github.com/cumc-dbmi/cehrbert,cumc-dbmi,cehrber,cumc-dbmi/cehrber,Organization,True,Department of Biomedical Informatics
+https://github.com/hl7au/au-fhir-base,hl7au,au-fhir-base,hl7au/au-fhir-base,Organization,True,
+https://github.com/LuChang-CS/MTGAN,LuChang-CS,MTGAN,LuChang-CS/MTGAN,User,False,Chang Lu
+https://github.com/dcarbone/php-fhir-generated,dcarbone,php-fhir-generated,dcarbone/php-fhir-generated,User,False,Daniel Carbone
+https://github.com/ritaranx/RAM-EHR,ritaranx,RAM-EHR,ritaranx/RAM-EHR,User,False,Ran Xu
+https://github.com/the-momentum/fhirboard,the-momentum,fhirboard,the-momentum/fhirboard,Organization,True,Momentum
+https://github.com/RobHolme/HL7-Listener,RobHolme,HL7-Listener,RobHolme/HL7-Listener,User,False,Rob Holme
+https://github.com/fhir-schema/fhir-schema,fhir-schema,fhir-schema,fhir-schema/fhir-schema,Organization,True,
+https://github.com/the-momentum/notetaker,the-momentum,notetaker,the-momentum/notetaker,Organization,True,Momentum
+https://github.com/The-Swarm-Corporation/Open-MAI-Dx-Orchestrator,The-Swarm-Corporation,Open-MAI-Dx-Orchestrator,The-Swarm-Corporation/Open-MAI-Dx-Orchestrator,Organization,True,Swarms
+https://github.com/OHDSI/Perseus,OHDSI,Perseus,OHDSI/Perseus,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/FirelyTeam/firely-cql-sdk,FirelyTeam,firely-cql-sdk,FirelyTeam/firely-cql-sdk,Organization,True,Firely
+https://github.com/mitre/fhir-server,mitre,fhir-server,mitre/fhir-server,Organization,True,The MITRE Corporation
+https://github.com/WGLab/EHR-Phenolyzer,WGLab,EHR-Phenolyzer,WGLab/EHR-Phenolyzer,Organization,True,Wang Genomics Lab
+https://github.com/mmcdermott/comprehensive_MTL_EHR,mmcdermott,comprehensive_MTL_EHR,mmcdermott/comprehensive_MTL_EHR,User,False,Matthew McDermott
+https://github.com/wangmengsd/pdd-graph,wangmengsd,pdd-graph,wangmengsd/pdd-graph,User,False,
+https://github.com/FHIR/GoFSH,FHIR,GoFSH,FHIR/GoFSH,Organization,True,FHIR
+https://github.com/healthintellect/fhir-ui,healthintellect,fhir-u,healthintellect/fhir-u,Organization,True,Health Intellect
+https://github.com/canvas-medical/mobile-patient-app,canvas-medical,mobile-patient-app,canvas-medical/mobile-patient-app,Organization,True,Canvas Medical
+https://github.com/v1xerunt/RHealth,v1xerunt,RHealth,v1xerunt/RHealth,User,False,Junyi Gao
+https://github.com/gt-health/GT-FHIR,gt-health,GT-FHIR,gt-health/GT-FHIR,Organization,True,
+https://github.com/jmandel/fhir-js-client,jmandel,fhir-js-clien,jmandel/fhir-js-clien,User,False,Josh Mandel
+https://github.com/BenGlicksberg/ROMOP,BenGlicksberg,ROMOP,BenGlicksberg/ROMOP,User,False,Ben Glicksberg
+https://github.com/HL7/fhir-shc-vaccination-ig,HL7,fhir-shc-vaccination-,HL7/fhir-shc-vaccination-,Organization,True,Health Level Seven International
+https://github.com/babylonhealth/lit-fhir,babylonhealth,lit-fhir,babylonhealth/lit-fhir,Organization,True,Babylon Health
+https://github.com/nhsconnect/gpconnect,nhsconnect,gpconnec,nhsconnect/gpconnec,Organization,True,NHS Connect
+https://github.com/shalkam/gql-fhir,shalkam,gql-fhir,shalkam/gql-fhir,User,False,Mostafa Sholkamy
+https://github.com/amida-tech/mllp,amida-tech,mllp,amida-tech/mllp,Organization,True,Amida Technology Solutions
+https://github.com/RobHolme/HL7-Powershell-Module,RobHolme,HL7-Powershell-Module,RobHolme/HL7-Powershell-Module,User,False,Rob Holme
+https://github.com/glory-kasongo-03/Doctor_appointment_booking_system,glory-kasongo-03,Doctor_appointment_booking_system,glory-kasongo-03/Doctor_appointment_booking_system,User,False,Glory Kasongo
+https://github.com/weimin17/Multimodal_Transformer,weimin17,Multimodal_Transformer,weimin17/Multimodal_Transformer,User,False,Weimin
+https://github.com/icanbwell/fhir-server,icanbwell,fhir-server,icanbwell/fhir-server,Organization,True,b.well
+https://github.com/POLAR-fhiR/fhircrackr,POLAR-fhiR,fhircrackr,POLAR-fhiR/fhircrackr,Organization,True,POLAR-fhir
+https://github.com/ruoyu-chen/dl4ehr_papers,ruoyu-chen,dl4ehr_papers,ruoyu-chen/dl4ehr_papers,User,False,Ruoyu Chen
+https://github.com/som-shahlab/ehr-rwe,som-shahlab,ehr-rwe,som-shahlab/ehr-rwe,Organization,True,Dr. Nigam Shah's research group at Stanford Medicine
+https://github.com/nazrulworld/fhirpath,nazrulworld,fhirpath,nazrulworld/fhirpath,User,False,Md Nazrul Islam
+https://github.com/lantanagroup/stylesheets,lantanagroup,stylesheets,lantanagroup/stylesheets,Organization,True,Lantana Consulting Group
+https://github.com/tiloc/faiadashu,tiloc,faiadashu,tiloc/faiadashu,User,False,Tilo
+https://github.com/SAP/openui5-fhir,SAP,openui5-fhir,SAP/openui5-fhir,Organization,True,SAP
+https://github.com/philips-software/terraform-provider-hsdp,philips-software,terraform-provider-hsdp,philips-software/terraform-provider-hsdp,Organization,True,Philips Software
+https://github.com/LHNCBC/formbuilder-lhcforms,LHNCBC,formbuilder-lhcforms,LHNCBC/formbuilder-lhcforms,Organization,True,Lister Hill National Center for Biomedical Communications
+https://github.com/LibreHealthIO/lh-ehr-laravel,LibreHealthIO,lh-ehr-laravel,LibreHealthIO/lh-ehr-laravel,Organization,True,LibreHealth
+https://github.com/cmiles74/clojure-hl7-messaging-2-parser,cmiles74,clojure-hl7-messaging-2-parser,cmiles74/clojure-hl7-messaging-2-parser,User,False,Christopher Miles
+https://github.com/wshi83/MedAdapter,wshi83,MedAdapter,wshi83/MedAdapter,User,False,Wenqi Shi
+https://github.com/siddythings/system-prompts-and-models-of-ai-tools,siddythings,system-prompts-and-models-of-ai-tools,siddythings/system-prompts-and-models-of-ai-tools,User,False,siddhart
+https://github.com/ji-youn-kim/EHRNoteQA,ji-youn-kim,EHRNoteQA,ji-youn-kim/EHRNoteQA,User,False,Jiyoun Kim
+https://github.com/dshills/golevel7,dshills,golevel7,dshills/golevel7,User,False,Davin Hills
+https://github.com/awslabs/fhir-works-on-aws-search-es,awslabs,fhir-works-on-aws-search-es,awslabs/fhir-works-on-aws-search-es,Organization,True,Amazon Web Services - Labs
+https://github.com/ehrbase/fhir-bridge,ehrbase,fhir-bridge,ehrbase/fhir-bridge,Organization,True,ehrbase
+https://github.com/philips-software/go-hsdp-api,philips-software,go-hsdp-ap,philips-software/go-hsdp-ap,Organization,True,Philips Software
+https://github.com/awslabs/fhir-works-on-aws-authz-smart,awslabs,fhir-works-on-aws-authz-smar,awslabs/fhir-works-on-aws-authz-smar,Organization,True,Amazon Web Services - Labs
+https://github.com/standardhealth/smart-react-app-template,standardhealth,smart-react-app-template,standardhealth/smart-react-app-template,Organization,True,Standard Health Record Collaborative
+https://github.com/monarch-initiative/loinc2hpo,monarch-initiative,loinc2hpo,monarch-initiative/loinc2hpo,Organization,True,Monarch Initiative
+https://github.com/HicServices/SynthEHR,HicServices,SynthEHR,HicServices/SynthEHR,Organization,True,
+https://github.com/FHIR/genomics-operations,FHIR,genomics-operations,FHIR/genomics-operations,Organization,True,FHIR
+https://github.com/onc-healthit/lantern-back-end,onc-healthit,lantern-back-end,onc-healthit/lantern-back-end,Organization,True,Office of the National Coordinator for Health IT
+https://github.com/som-shahlab/factehr,som-shahlab,factehr,som-shahlab/factehr,Organization,True,Dr. Nigam Shah's research group at Stanford Medicine
+https://github.com/acadTags/Rare-disease-identification,acadTags,Rare-disease-identification,acadTags/Rare-disease-identification,User,False,Hang Dong
+https://github.com/awslabs/fhir-works-on-aws-routing,awslabs,fhir-works-on-aws-routin,awslabs/fhir-works-on-aws-routin,Organization,True,Amazon Web Services - Labs
+https://github.com/yy6linda/synthetic-ehr-benchmarking,yy6linda,synthetic-ehr-benchmarkin,yy6linda/synthetic-ehr-benchmarkin,User,False,
+https://github.com/health-validator/Hammer,health-validator,Hammer,health-validator/Hammer,Organization,True,
+https://github.com/hl7au/au-fhir-core,hl7au,au-fhir-core,hl7au/au-fhir-core,Organization,True,
+https://github.com/microsoft/health-architectures,microsoft,health-architectures,microsoft/health-architectures,Organization,True,Microsoft
+https://github.com/FHIR/packages,FHIR,packages,FHIR/packages,Organization,True,FHIR
+https://github.com/smart-on-fhir/generated-sample-data,smart-on-fhir,generated-sample-data,smart-on-fhir/generated-sample-data,Organization,True,SMART on FHIR
+https://github.com/Project-MONAI/monai-deploy-informatics-gateway,Project-MONAI,monai-deploy-informatics-gateway,Project-MONAI/monai-deploy-informatics-gateway,Organization,True,Project MONAI
+https://github.com/fastenhealth/fasten-sources,fastenhealth,fasten-sources,fastenhealth/fasten-sources,Organization,True,Fasten Health
+https://github.com/dorlugasigal/MiniClean.Template,dorlugasigal,MiniClean.Template,dorlugasigal/MiniClean.Template,User,False,Dor Lugasi-Gal
+https://github.com/ekryski/node-hl7,ekryski,node-hl7,ekryski/node-hl7,User,False,Eric Kryski
+https://github.com/nhsconnect/careconnect-reference-implementation,nhsconnect,careconnect-reference-implementation,nhsconnect/careconnect-reference-implementation,Organization,True,NHS Connect
+https://github.com/niquola/fhir-schema,niquola,fhir-schema,niquola/fhir-schema,User,False,Nikolai Ryzhikov
+https://github.com/rimiti/hl7-object-parser,rimiti,hl7-object-parser,rimiti/hl7-object-parser,User,False,Dimitri DO BAIRRO
+https://github.com/logicahealth/InfoButtons,logicahealth,InfoButtons,logicahealth/InfoButtons,Organization,True,Logica Health (formerly HSPC)
+https://github.com/brianpos/fhir-net-web-api,brianpos,fhir-net-web-ap,brianpos/fhir-net-web-ap,User,False,Brian Postlethwaite
+https://github.com/node-on-fhir/fhir-schemas,node-on-fhir,fhir-schemas,node-on-fhir/fhir-schemas,Organization,True,Node on FHIR
+https://github.com/gematik/api-vzd,gematik,api-vzd,gematik/api-vzd,Organization,True,gematik GmbH
+https://github.com/philipdarke/ukbb-ehr-data,philipdarke,ukbb-ehr-data,philipdarke/ukbb-ehr-data,User,False,Philip Darke
+https://github.com/dshills/gofhir,dshills,gofhir,dshills/gofhir,User,False,Davin Hills
+https://github.com/cqframework/hedis-ig,cqframework,hedis-,cqframework/hedis-,Organization,True,Clinical Quality Framework
+https://github.com/RyanWangZf/PromptEHR,RyanWangZf,PromptEHR,RyanWangZf/PromptEHR,User,False,Zephyr
+https://github.com/BlackPearSw/fhirball,BlackPearSw,fhirball,BlackPearSw/fhirball,Organization,True,Black Pear Software
+https://github.com/HL7/ccda-on-fhir,HL7,ccda-on-fhir,HL7/ccda-on-fhir,Organization,True,Health Level Seven International
+https://github.com/Chinlinlee/Burni,Chinlinlee,Burn,Chinlinlee/Burn,User,False,a5566qq123
+https://github.com/davebronson/clear-hl7-net,davebronson,clear-hl7-ne,davebronson/clear-hl7-ne,User,False,
+https://github.com/ivanwilliammd/satusehat-laravel-example,ivanwilliammd,satusehat-laravel-example,ivanwilliammd/satusehat-laravel-example,User,False,Ivan William Harsono
+https://github.com/inferno-framework/inferno-core,inferno-framework,inferno-core,inferno-framework/inferno-core,Organization,True,Inferno Health API Testing Framework
+https://github.com/som-shahlab/hf_ehr,som-shahlab,hf_ehr,som-shahlab/hf_ehr,Organization,True,Dr. Nigam Shah's research group at Stanford Medicine
+https://github.com/mimilabs/hccinfhir,mimilabs,hccinfhir,mimilabs/hccinfhir,Organization,True,mimilabs
+https://github.com/OHDSI/dbt-synthea,OHDSI,dbt-synthea,OHDSI/dbt-synthea,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/j4jayant/hl7-cSharp-parser,j4jayant,hl7-cSharp-parser,j4jayant/hl7-cSharp-parser,User,False,Jayant Singh
+https://github.com/crs4/pyEHR,crs4,pyEHR,crs4/pyEHR,Organization,True,CRS4
+https://github.com/OHDSI/Themis,OHDSI,Themis,OHDSI/Themis,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/C3-PRO/c3-pro-ios-framework,C3-PRO,c3-pro-ios-framework,C3-PRO/c3-pro-ios-framework,Organization,True,C3-PRO
+https://github.com/google/meet-on-fhir,google,meet-on-fhir,google/meet-on-fhir,Organization,True,Google
+https://github.com/nhsx/open-source-fhir-server,nhsx,open-source-fhir-server,nhsx/open-source-fhir-server,Organization,True,NHSX
+https://github.com/awslabs/fhir-works-on-aws-persistence-ddb,awslabs,fhir-works-on-aws-persistence-ddb,awslabs/fhir-works-on-aws-persistence-ddb,Organization,True,Amazon Web Services - Labs
+https://github.com/ylboerner/Einthoven,ylboerner,Einthoven,ylboerner/Einthoven,User,False,Yannick Boerner
+https://github.com/oracle-samples/ignite-endpoints,oracle-samples,ignite-endpoints,oracle-samples/ignite-endpoints,Organization,True,Oracle Sample Projects
+https://github.com/AHRQ-CDS/AHRQ-CDS-Connect-CQL-SERVICES,AHRQ-CDS,AHRQ-CDS-Connect-CQL-SERVICES,AHRQ-CDS/AHRQ-CDS-Connect-CQL-SERVICES,Organization,True,
+https://github.com/tuva-health/FHIR_inferno,tuva-health,FHIR_inferno,tuva-health/FHIR_inferno,Organization,True,The Tuva Project
+https://github.com/microsoft/smart-on-fhir-app-starter-kit,microsoft,smart-on-fhir-app-starter-k,microsoft/smart-on-fhir-app-starter-k,Organization,True,Microsoft
+https://github.com/microsoft/healthvault-fhir-library,microsoft,healthvault-fhir-library,microsoft/healthvault-fhir-library,Organization,True,Microsoft
+https://github.com/HL7/smart-app-launch,HL7,smart-app-launch,HL7/smart-app-launch,Organization,True,Health Level Seven International
+https://github.com/sczzz3/EHRDiff,sczzz3,EHRDiff,sczzz3/EHRDiff,User,False,sc zz
+https://github.com/fhir-typescript/fhir-typescript,fhir-typescript,fhir-typescrip,fhir-typescript/fhir-typescrip,Organization,True,fhir-typescript
+https://github.com/medblocks/openFHIR,medblocks,openFHIR,medblocks/openFHIR,Organization,True,Medblocks
+https://github.com/draaslan/blood-cell-detection-dataset,draaslan,blood-cell-detection-datase,draaslan/blood-cell-detection-datase,User,False,Abdüssamet Aslan
+https://github.com/bluehalo/fhir-app-starter,bluehalo,fhir-app-starter,bluehalo/fhir-app-starter,Organization,True,BlueHalo
+https://github.com/fhir-ru/core,fhir-ru,core,fhir-ru/core,Organization,True,
+https://github.com/jembi/hearth,jembi,hearth,jembi/hearth,Organization,True,Jembi Health Systems NPC
+https://github.com/HL7/cds-hooks-hl7-site,HL7,cds-hooks-hl7-site,HL7/cds-hooks-hl7-site,Organization,True,Health Level Seven International
+https://github.com/HL7/dicom-sr,HL7,dicom-sr,HL7/dicom-sr,Organization,True,Health Level Seven International
+https://github.com/ritaranx/CACHE,ritaranx,CACHE,ritaranx/CACHE,User,False,Ran Xu
+https://github.com/spiros/ukb-biomarker-phenotypes,spiros,ukb-biomarker-phenotypes,spiros/ukb-biomarker-phenotypes,User,False,Spiros Denaxas
+https://github.com/gematik/app-referencevalidator,gematik,app-referencevalidator,gematik/app-referencevalidator,Organization,True,gematik GmbH
+https://github.com/LaMMMy/HL7Parser,LaMMMy,HL7Parser,LaMMMy/HL7Parser,User,False,
+https://github.com/Bugs5382/node-hl7-client,Bugs5382,node-hl7-clien,Bugs5382/node-hl7-clien,User,False,Shane
+https://github.com/FHIR/Ucum-java,FHIR,Ucum-java,FHIR/Ucum-java,Organization,True,FHIR
+https://github.com/itsLeonB/rekam-medis-elektronik,itsLeonB,rekam-medis-elektronik,itsLeonB/rekam-medis-elektronik,User,False,Ellion Blessan
+https://github.com/smart-on-fhir/sample-bulk-fhir-datasets,smart-on-fhir,sample-bulk-fhir-datasets,smart-on-fhir/sample-bulk-fhir-datasets,Organization,True,SMART on FHIR
+https://github.com/ozone-his/ozone,ozone-his,ozone,ozone-his/ozone,Organization,True,Ozone • The Instant HIS
+https://github.com/The-Data-Dilemma/MediBeng-Whisper-Tiny,The-Data-Dilemma,MediBeng-Whisper-Tiny,The-Data-Dilemma/MediBeng-Whisper-Tiny,Organization,True,The Data Dilemma
+https://github.com/cyanheads/clinicaltrialsgov-mcp-server,cyanheads,clinicaltrialsgov-mcp-server,cyanheads/clinicaltrialsgov-mcp-server,User,False,Casey Hand
+https://github.com/The-Data-Dilemma/MediBeng-Whisper-Tiny,The-Data-Dilemma,MediBeng-Whisper-Tiny,The-Data-Dilemma/MediBeng-Whisper-Tiny,Organization,True,The Data Dilemma
+https://github.com/hungnlp/viBioGPT,hungnlp,viBioGPT,hungnlp/viBioGPT,User,False,Hung Nguyen
+https://github.com/avisi/jmeter-mllp-tcpclient,avisi,jmeter-mllp-tcpclien,avisi/jmeter-mllp-tcpclien,Organization,True,Avisi B.V.
+https://github.com/kwboone/FHIR-JSON-to-XML-Converter,kwboone,FHIR-JSON-to-XML-Converter,kwboone/FHIR-JSON-to-XML-Converter,User,False,Keith W. Boone
+https://github.com/arkhn-oss/FHIR2Dataset,arkhn-oss,FHIR2Datase,arkhn-oss/FHIR2Datase,Organization,True,Arkhn OSS
+https://github.com/yehezkel/gohl7,yehezkel,gohl7,yehezkel/gohl7,User,False,Yehezkel Pernas
+https://github.com/schmalle/medpot,schmalle,medpo,schmalle/medpo,User,False,Markus Schmall
+https://github.com/mithun008/FHIRServer,mithun008,FHIRServer,mithun008/FHIRServer,User,False,Mithun Mallick
+https://github.com/angusmillar/SmartHealthCard,angusmillar,SmartHealthCard,angusmillar/SmartHealthCard,User,False,Angus Millar
+https://github.com/lantanagroup/trifolia-on-fhir,lantanagroup,trifolia-on-fhir,lantanagroup/trifolia-on-fhir,Organization,True,Lantana Consulting Group
+https://github.com/Interop-Sante/hl7.fhir.fr.core,Interop-Sante,hl7.fhir.fr.core,Interop-Sante/hl7.fhir.fr.core,Organization,True,
+https://github.com/HL7/fhircast-docs,HL7,fhircast-docs,HL7/fhircast-docs,Organization,True,Health Level Seven International
+https://github.com/HL7/genomics-reporting,HL7,genomics-reportin,HL7/genomics-reportin,Organization,True,Health Level Seven International
+https://github.com/NCTraCSIDSci/camp-fhir,NCTraCSIDSci,camp-fhir,NCTraCSIDSci/camp-fhir,Organization,True,NC TraCS Informatics and Data Science (IDSci)
+https://github.com/onaio/fhir-web,onaio,fhir-web,onaio/fhir-web,Organization,True,Ona
+https://github.com/OHDSI/Data2Evidence,OHDSI,Data2Evidence,OHDSI/Data2Evidence,Organization,True,Observational Health Data Sciences and Informatics
+https://github.com/the-momentum/fhir-mcp-server,the-momentum,fhir-mcp-server,the-momentum/fhir-mcp-server,Organization,True,Momentum
+https://github.com/panates/hl7v2,panates,hl7v2,panates/hl7v2,Organization,True,Panates
+https://github.com/angusmillar/Deprecated-Pyro,angusmillar,Deprecated-Pyro,angusmillar/Deprecated-Pyro,User,False,Angus Millar
+https://github.com/hansenms/FhirLoader,hansenms,FhirLoader,hansenms/FhirLoader,User,False,Michael Hansen
+https://github.com/evanlucas/nodengine-hl7,evanlucas,nodengine-hl7,evanlucas/nodengine-hl7,User,False,Evan Lucas
+https://github.com/openlifescience-ai/ai-deadlines,openlifescience-ai,ai-deadlines,openlifescience-ai/ai-deadlines,Organization,True,Open Life Science AI (OLSA)
+https://github.com/openmrs/openmrs-module-hl7query,openmrs,openmrs-module-hl7query,openmrs/openmrs-module-hl7query,Organization,True,OpenMRS
+https://github.com/cqframework/cql-exec-fhir,cqframework,cql-exec-fhir,cqframework/cql-exec-fhir,Organization,True,Clinical Quality Framework
+https://github.com/SMARTMarkers/smartmarkers-ios,SMARTMarkers,smartmarkers-ios,SMARTMarkers/smartmarkers-ios,Organization,True,SMART Markers
+https://github.com/FirelyTeam/Fhir.Metrics,FirelyTeam,Fhir.Metrics,FirelyTeam/Fhir.Metrics,Organization,True,Firely
+https://github.com/IGUHealth/IGUHealth,IGUHealth,IGUHealth,IGUHealth/IGUHealth,Organization,True,
+https://github.com/StanfordBDHG/HealthKitOnFHIR,StanfordBDHG,HealthKitOnFHIR,StanfordBDHG/HealthKitOnFHIR,Organization,True,Stanford Biodesign Digital Health
+https://github.com/MitosEHR/MitosEHR-Official,MitosEHR,MitosEHR-Official,MitosEHR/MitosEHR-Official,Organization,True,Electronic Health Record
+https://github.com/awslabs/fhir-works-on-aws-authz-rbac,awslabs,fhir-works-on-aws-authz-rbac,awslabs/fhir-works-on-aws-authz-rbac,Organization,True,Amazon Web Services - Labs
+https://github.com/IHE/fhir,IHE,fhir,IHE/fhir,Organization,True,IHE International
+https://github.com/Pharma-Intelligence/HL7,Pharma-Intelligence,HL7,Pharma-Intelligence/HL7,Organization,True,Pharma-Inteligence
+https://github.com/hl7germany/basisprofil-de-r4,hl7germany,basisprofil-de-r4,hl7germany/basisprofil-de-r4,Organization,True,HL7 Deutschland
+https://github.com/hms-dbmi/halyos,hms-dbmi,halyos,hms-dbmi/halyos,Organization,True,Harvard Medical School - Department of Biomedical Informatics
+https://github.com/microsoft/FitbitOnFHIR,microsoft,FitbitOnFHIR,microsoft/FitbitOnFHIR,Organization,True,Microsoft
+https://github.com/WorldHealthOrganization/smart-anc,WorldHealthOrganization,smart-anc,WorldHealthOrganization/smart-anc,Organization,True,World Health Organization
+https://github.com/dustn1259/EHRCon,dustn1259,EHRCon,dustn1259/EHRCon,User,False,Yeonsu Kwon
+https://github.com/cerner/bunsen-tutorial,cerner,bunsen-tutorial,cerner/bunsen-tutorial,Organization,True,Oracle Cerner
+https://github.com/SaxxonPike/NextLevelSeven,SaxxonPike,NextLevelSeven,SaxxonPike/NextLevelSeven,User,False,Tony Konzel
+https://github.com/mcode/mcode-extraction-framework,mcode,mcode-extraction-framework,mcode/mcode-extraction-framework,Organization,True,mCODE
+https://github.com/scotthlee/NRC,scotthlee,NRC,scotthlee/NRC,User,False,Scott Lee
+https://github.com/LinuxForHealth/dicom-fhir-converter,LinuxForHealth,dicom-fhir-converter,LinuxForHealth/dicom-fhir-converter,Organization,True,Linux For Health
+https://github.com/seattleflu/id3c,seattleflu,id3c,seattleflu/id3c,Organization,True,Seattle Flu Study
+https://github.com/HL7/cql,HL7,cql,HL7/cql,Organization,True,Health Level Seven International
+https://github.com/fhircast/sandbox.js,fhircast,sandbox.js,fhircast/sandbox.js,Organization,True,FHIRcast
+https://github.com/JohannesOehm/FhirExtinguisher,JohannesOehm,FhirExtinguisher,JohannesOehm/FhirExtinguisher,User,False,Johannes Oehm
+https://github.com/samply/blazectl,samply,blazectl,samply/blazectl,Organization,True,Samply
+https://github.com/flexpa/awesome-fhir,flexpa,awesome-fhir,flexpa/awesome-fhir,Organization,True,Flexpa
+https://github.com/aws-samples/fhir-hl7v2-integration-transform,aws-samples,fhir-hl7v2-integration-transform,aws-samples/fhir-hl7v2-integration-transform,Organization,True,AWS Samples
+https://github.com/aehrc/fhir-owl,aehrc,fhir-owl,aehrc/fhir-owl,Organization,True,The Australian e-Health Research Centre
+https://github.com/ansforge/annuaire-sante-fhir-documentation,ansforge,annuaire-sante-fhir-documentation,ansforge/annuaire-sante-fhir-documentation,Organization,True,Agence du Numérique en Santé (ANS)
+https://github.com/dot-base/icd-10-api,dot-base,icd-10-ap,dot-base/icd-10-ap,Organization,True,dotbase
+https://github.com/projecttacoma/fqm-execution,projecttacoma,fqm-execution,projecttacoma/fqm-execution,Organization,True,MITRE eCQM Reporting
+https://github.com/akiani/gym-sepsis,akiani,gym-sepsis,akiani/gym-sepsis,User,False,Amir Kiani
+https://github.com/yhzhu99/pyehr,yhzhu99,pyehr,yhzhu99/pyehr,User,False,Yinghao Zhu
+https://github.com/databricks-industry-solutions/omop-cdm,databricks-industry-solutions,omop-cdm,databricks-industry-solutions/omop-cdm,Organization,True,Databricks Industry Solutions
+https://github.com/yhzhu99/HealthFlow,yhzhu99,HealthFlow,yhzhu99/HealthFlow,User,False,Yinghao Zhu
+https://github.com/jmandel/kiln,jmandel,kiln,jmandel/kiln,User,False,Josh Mandel
+https://github.com/fhir-fuel/fhir-fuel.github.io,fhir-fuel,fhir-fuel.github.io,fhir-fuel/fhir-fuel.github.io,Organization,True,
+https://github.com/dgrinberg/HL7-Snoop,dgrinberg,HL7-Snoop,dgrinberg/HL7-Snoop,User,False,David Grinberg
+https://github.com/som-shahlab/ehr_ml,som-shahlab,ehr_ml,som-shahlab/ehr_ml,Organization,True,Dr. Nigam Shah's research group at Stanford Medicine
+https://github.com/athiththan11/FHIR-to-Swagger,athiththan11,FHIR-to-Swagger,athiththan11/FHIR-to-Swagger,User,False,Athiththan Kathirgamasegaran
+https://github.com/Pacmed/ehr_ood_detection,Pacmed,ehr_ood_detection,Pacmed/ehr_ood_detection,Organization,True,Pacmed
+https://github.com/HL7/carin-bb,HL7,carin-bb,HL7/carin-bb,Organization,True,Health Level Seven International
+https://github.com/AuDigitalHealth/medserve,AuDigitalHealth,medserve,AuDigitalHealth/medserve,Organization,True,Australian Digital Health Agency
+https://github.com/chrisby/ml-on-fhir,chrisby,ml-on-fhir,chrisby/ml-on-fhir,User,False,Christian Bock
+https://github.com/ahdis/fhir-mapping-tutorial,ahdis,fhir-mapping-tutorial,ahdis/fhir-mapping-tutorial,Organization,True,ahdis
+https://github.com/lhs-open/synthetic-data,lhs-open,synthetic-data,lhs-open/synthetic-data,User,False,Open LHS
+https://github.com/cqframework/cqf-tooling,cqframework,cqf-toolin,cqframework/cqf-toolin,Organization,True,Clinical Quality Framework
+https://github.com/mujiyantosvc/Facial-Expression-Recognition-FER-for-Mental-Health-Detection-,mujiyantosvc,Facial-Expression-Recognition-FER-for-Mental-Health-Detection-,mujiyantosvc/Facial-Expression-Recognition-FER-for-Mental-Health-Detection-,User,False,Mujiyanto Amikom
+https://github.com/dermatologist/kedro-multimodal,dermatologist,kedro-multimodal,dermatologist/kedro-multimodal,User,False,Bell Eapen
+https://github.com/ocrickard/fhir-rs,ocrickard,fhir-rs,ocrickard/fhir-rs,User,False,Oliver Clark Rickard
+https://github.com/nickvane/OpenEHR,nickvane,OpenEHR,nickvane/OpenEHR,User,False,Nick Van Eeckhout
+https://github.com/OnGridSystems/PatientControlledElectronicHealthRecords,OnGridSystems,PatientControlledElectronicHealthRecords,OnGridSystems/PatientControlledElectronicHealthRecords,Organization,True,OnGrid Systems
+https://github.com/hansenms/FhirDemo,hansenms,FhirDemo,hansenms/FhirDemo,User,False,Michael Hansen
+https://github.com/brianpos/FhirPathTester,brianpos,FhirPathTester,brianpos/FhirPathTester,User,False,Brian Postlethwaite
+https://github.com/Vermonster/fhir-kit-mapping-language,Vermonster,fhir-kit-mapping-language,Vermonster/fhir-kit-mapping-language,Organization,True,Vermonster LLC
+https://github.com/johnpaulett/txHL7,johnpaulett,txHL7,johnpaulett/txHL7,User,False,John Paulett
+https://github.com/sajaddarabi/TAPER-EHR,sajaddarabi,TAPER-EHR,sajaddarabi/TAPER-EHR,User,False,Sajad Darabi
+https://github.com/DAV-ABDA/eRezept-Referenzvalidator,DAV-ABDA,eRezept-Referenzvalidator,DAV-ABDA/eRezept-Referenzvalidator,Organization,True,ABDA – Bundesvereinigung Deutscher Apothekerverbände e. V.
+https://github.com/dermatologist/fhir-questionnaire-render-react,dermatologist,fhir-questionnaire-render-reac,dermatologist/fhir-questionnaire-render-reac,User,False,Bell Eapen
+https://github.com/node-on-fhir/fhir-starter,node-on-fhir,fhir-starter,node-on-fhir/fhir-starter,Organization,True,Node on FHIR
+https://github.com/BlueBash/abdm-ruby,BlueBash,abdm-ruby,BlueBash/abdm-ruby,Organization,True,Bluebash
+https://github.com/FHIR/vscode-fsh,FHIR,vscode-fsh,FHIR/vscode-fsh,Organization,True,FHIR
+https://github.com/HL7/fhir-ips,HL7,fhir-ips,HL7/fhir-ips,Organization,True,Health Level Seven International
+https://github.com/zemantic/fhir-auth,zemantic,fhir-auth,zemantic/fhir-auth,Organization,True,Zemantic Tech
+https://github.com/Bayer-Group/text-to-sql-epi-ehr-naacl2024,Bayer-Group,text-to-sql-epi-ehr-naacl2024,Bayer-Group/text-to-sql-epi-ehr-naacl2024,Organization,True,Bayer Open Source
+https://github.com/FortaTech/prompts-for-health,FortaTech,prompts-for-health,FortaTech/prompts-for-health,Organization,True,
+https://github.com/MohsinRazaKhanSipra/EHR-django,MohsinRazaKhanSipra,EHR-django,MohsinRazaKhanSipra/EHR-django,User,False,Mohsin Raza
+https://github.com/AI4HealthUOL/MDS-ED,AI4HealthUOL,MDS-ED,AI4HealthUOL/MDS-ED,Organization,True,
+https://github.com/HealthInnovators/MedChat-AI,HealthInnovators,MedChat-AI,HealthInnovators/MedChat-AI,User,False,Dr. Kalyan Kalwa
+https://github.com/arcweb/arcwell,arcweb,arcwell,arcweb/arcwell,Organization,True,Arcweb Technologies
+https://github.com/beda-software/FHIRPathMappingLanguage,beda-software,FHIRPathMappingLanguage,beda-software/FHIRPathMappingLanguage,Organization,True,beda.software
+https://github.com/amaron-team/fhindr,amaron-team,fhindr,amaron-team/fhindr,Organization,True,Amaron
+https://github.com/llmeval/LLMEval-Med,llmeval,LLMEval-Med,llmeval/LLMEval-Med,Organization,True,FDU-NLP LLMEval Team
+https://github.com/HL7Norway/best-practice,HL7Norway,best-practice,HL7Norway/best-practice,Organization,True,HL7 Norge
+https://github.com/verily-src/fhirpath-go,verily-src,fhirpath-go,verily-src/fhirpath-go,Organization,True,Verily Life Sciences
+https://github.com/SAFEHR-data/FlowEHR,SAFEHR-data,FlowEHR,SAFEHR-data/FlowEHR,Organization,True,SAFEHR
+https://github.com/gotdan/flatquack,gotdan,flatquack,gotdan/flatquack,User,False,Dan Gottlieb
+https://github.com/nhunguet/AI4healthcare,nhunguet,AI4healthcare,nhunguet/AI4healthcare,User,False,Nhung
+https://github.com/hl7au/au-fhir-test-data,hl7au,au-fhir-test-data,hl7au/au-fhir-test-data,Organization,True,
+https://github.com/seonhee99/EHR-SeqSQL,seonhee99,EHR-SeqSQL,seonhee99/EHR-SeqSQL,User,False,
+https://github.com/FHIR/fhir-candle,FHIR,fhir-candle,FHIR/fhir-candle,Organization,True,FHIR
+https://github.com/google/fhir-dbt-utils,google,fhir-dbt-utils,google/fhir-dbt-utils,Organization,True,Google
+https://github.com/HL7/fhir-omop-ig,HL7,fhir-omop-,HL7/fhir-omop-,Organization,True,Health Level Seven International
+https://github.com/datasharingframework/dsf,datasharingframework,dsf,datasharingframework/dsf,Organization,True,Data Sharing Framework
+https://github.com/oehf/xds-registry-to-fhir,oehf,xds-registry-to-fhir,oehf/xds-registry-to-fhir,Organization,True,Open eHealth Foundation
+https://github.com/fhirfly/fhirpower,fhirfly,fhirpower,fhirfly/fhirpower,User,False,FHIRFLY
+https://github.com/HKU-MedAI/MulT-EHR,HKU-MedAI,MulT-EHR,HKU-MedAI/MulT-EHR,Organization,True,MedAI@HKU
+https://github.com/cocoindex-io/patient-intake-extraction,cocoindex-io,patient-intake-extraction,cocoindex-io/patient-intake-extraction,Organization,True,CocoIndex
+https://github.com/The-Data-Dilemma/MediRag-Guard,The-Data-Dilemma,MediRag-Guard,The-Data-Dilemma/MediRag-Guard,Organization,True,The Data Dilemma
+https://github.com/nazrulworld/fhir-core,nazrulworld,fhir-core,nazrulworld/fhir-core,User,False,Md Nazrul Islam
+https://github.com/erikhoward/azure-fhir-mcp-server,erikhoward,azure-fhir-mcp-server,erikhoward/azure-fhir-mcp-server,User,False,Erik Howard
+https://github.com/zedwerks/keycloak-smart-fhir,zedwerks,keycloak-smart-fhir,zedwerks/keycloak-smart-fhir,Organization,True,Zed Werks Inc.
+https://github.com/329162516/medprompt,329162516,medpromp,329162516/medpromp,User,False,
+https://github.com/AI-Hub-Admin/HealthcareAgent,AI-Hub-Admin,HealthcareAgen,AI-Hub-Admin/HealthcareAgen,User,False,AI-Hub-Admin
+https://github.com/Bugs5382/node-hl7-server,Bugs5382,node-hl7-server,Bugs5382/node-hl7-server,User,False,Shane
+https://github.com/alimoezzi/ReportQL,alimoezzi,ReportQL,alimoezzi/ReportQL,User,False,Ali Moezzi
+https://github.com/ji-youn-kim/EHRFL,ji-youn-kim,EHRFL,ji-youn-kim/EHRFL,User,False,Jiyoun Kim
+https://github.com/VarionAI/varion,VarionAI,varion,VarionAI/varion,Organization,True,
+https://github.com/chaseastewart/fhir-converter,chaseastewart,fhir-converter,chaseastewart/fhir-converter,User,False,Chase Stewart
+https://github.com/drmuskangarg/SLMs-in-healthcare,drmuskangarg,SLMs-in-healthcare,drmuskangarg/SLMs-in-healthcare,User,False,"Muskan Garg, PhD"
+https://github.com/erpuno/hl7,erpuno,hl7,erpuno/hl7,Organization,True,ERP/1
+https://github.com/canvas-medical/pydian,canvas-medical,pydian,canvas-medical/pydian,Organization,True,Canvas Medical
+https://github.com/chenxran/synthEHRella,chenxran,synthEHRella,chenxran/synthEHRella,User,False,Xingran Chen
+https://github.com/yhzhu99/ehr-llm-benchmark,yhzhu99,ehr-llm-benchmark,yhzhu99/ehr-llm-benchmark,User,False,Yinghao Zhu
+https://github.com/PRITHIVSAKTHIUR/EHRM-Website,PRITHIVSAKTHIUR,EHRM-Website,PRITHIVSAKTHIUR/EHRM-Website,User,False,PRITHIV SAKTHI U R
+https://github.com/AdaptInfer/clehrity,AdaptInfer,clehrity,AdaptInfer/clehrity,Organization,True,Adaptive Inference Lab
+https://github.com/wangziyu99/HealthQ-LLM-Healthcare-Benchmark,wangziyu99,HealthQ-LLM-Healthcare-Benchmark,wangziyu99/HealthQ-LLM-Healthcare-Benchmark,User,False,Ziyu Wang
+https://github.com/reAIM-Lab/ehr_foundation_model_benchmark,reAIM-Lab,ehr_foundation_model_benchmark,reAIM-Lab/ehr_foundation_model_benchmark,Organization,True,reAIM
+https://github.com/cistec-com/openEHR2FHIRquestionnaire,cistec-com,openEHR2FHIRquestionnaire,cistec-com/openEHR2FHIRquestionnaire,Organization,True,Cistec AG
+https://github.com/aiwonglab/ehrmonize,aiwonglab,ehrmonize,aiwonglab/ehrmonize,Organization,True,A. I. Wong lab
+https://github.com/theislab/ehrdata,theislab,ehrdata,theislab/ehrdata,Organization,True,Theis Lab
+https://github.com/dek924/EHRXDiff,dek924,EHRXDiff,dek924/EHRXDiff,User,False,
+https://github.com/PRAISELab-PicusLab/CER-Fact-Checking,PRAISELab-PicusLab,CER-Fact-Checkin,PRAISELab-PicusLab/CER-Fact-Checkin,Organization,True,PRAISELab@PicusLab
+https://github.com/FGA-DIKU/EHR,FGA-DIKU,EHR,FGA-DIKU/EHR,Organization,True,Fine Grained Analysis (DIKU)
+https://github.com/jy95/fhir-dosage-utils,jy95,fhir-dosage-utils,jy95/fhir-dosage-utils,User,False,Jacques Yakoub
+https://github.com/lavita-ai/medical-eval-sphere,lavita-ai,medical-eval-sphere,lavita-ai/medical-eval-sphere,Organization,True,Lavita
+https://github.com/WithSecureLabs/hl7magic,WithSecureLabs,hl7magic,WithSecureLabs/hl7magic,Organization,True,WithSecure Labs
+https://github.com/septerional/sep-1,septerional,sep-1,septerional/sep-1,Organization,True,Septerional
+https://github.com/Xt-EHR/xt-ehr-common,Xt-EHR,xt-ehr-common,Xt-EHR/xt-ehr-common,Organization,True,Xt-EHR
+https://github.com/hl7au/au-fhir-erequesting,hl7au,au-fhir-erequestin,hl7au/au-fhir-erequestin,Organization,True,
+https://github.com/kelkalot/normedqa,kelkalot,normedqa,kelkalot/normedqa,User,False,Michael A. Riegler
+https://github.com/smart-on-fhir/cumulus,smart-on-fhir,cumulus,smart-on-fhir/cumulus,Organization,True,SMART on FHIR
+https://github.com/Artessay/DearLLM,Artessay,DearLLM,Artessay/DearLLM,User,False,Rihong Qiu
+https://github.com/HowieHsu0126/AwesomeEHR,HowieHsu0126,AwesomeEHR,HowieHsu0126/AwesomeEHR,User,False,Haowei
+https://github.com/SanteonNL/shared-care-planning,SanteonNL,shared-care-plannin,SanteonNL/shared-care-plannin,Organization,True,Santeon
+https://github.com/EternityYW/FairEHR-CLP,EternityYW,FairEHR-CLP,EternityYW/FairEHR-CLP,User,False,Yuqing Wang
+https://github.com/Stoa-Medical/Portico,Stoa-Medical,Portico,Stoa-Medical/Portico,Organization,True,Stoa Medical
+https://github.com/canvas-medical/canvas-hyperscribe,canvas-medical,canvas-hyperscribe,canvas-medical/canvas-hyperscribe,Organization,True,Canvas Medical
+https://github.com/ericpan64/chidian,ericpan64,chidian,ericpan64/chidian,User,False,Eric S Pan

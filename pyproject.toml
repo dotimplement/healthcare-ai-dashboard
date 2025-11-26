@@ -7,9 +7,11 @@ requires-python = ">=3.11"
 dependencies = [
     "gspread>=6.2.1",
     "hiplot>=0.1.33",
-    "marimo>=0.16.5",
+    "kaleido>=1.2.0",
+    "marimo>=0.17.8",
+    "matplotlib>=3.10.7",
     "pandas>=2.3.3",
-    "plotly>=6.3.1",
+    "plotly==6.3.1",
     "protobuf>=6.32.1",
     "python-dotenv>=1.1.1",
     "streamlit>=1.50.0",

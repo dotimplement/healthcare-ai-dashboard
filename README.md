@@ -11,4 +11,3 @@ An interactive dashboard exploring healthcare AI repositories, including:
 
 ## Data Source
 Analysis based on healthcare AI repositories with metrics including stars, contributors, and activity status.
-

@@ -1,0 +1,179 @@
+url,owner,repo,full_name,owner_type,is_organization,owner_name
+https://github.com/zatosource/zato,zatosource,zato,zatosource/zato,User,False,"ESB, SOA, REST, APIs and Cloud Integrations in Python"
+https://github.com/pliang279/MultiBench,pliang279,MultiBench,pliang279/MultiBench,User,False,Paul Liang
+https://github.com/nazrulworld/fhir.resources,nazrulworld,fhir.resources,nazrulworld/fhir.resources,User,False,Md Nazrul Islam
+https://github.com/isaacmg/healthcare_ml,isaacmg,healthcare_ml,isaacmg/healthcare_ml,User,False,Isaac Godfried
+https://github.com/kexinhuang12345/clinicalBERT,kexinhuang12345,clinicalBERT,kexinhuang12345/clinicalBERT,User,False,Kexin Huang
+https://github.com/hurcy/awesome-ehr-deeplearning,hurcy,awesome-ehr-deeplearnin,hurcy/awesome-ehr-deeplearnin,User,False,Cinyoung Hur
+https://github.com/818000/bus,818000,bus,818000/bus,User,False,
+https://github.com/opensource-emr/hospital-management-emr,opensource-emr,hospital-management-emr,opensource-emr/hospital-management-emr,User,False,
+https://github.com/johnpaulett/python-hl7,johnpaulett,python-hl7,johnpaulett/python-hl7,User,False,John Paulett
+https://github.com/ZhiGroup/Med-BERT,ZhiGroup,Med-BERT,ZhiGroup/Med-BERT,User,False,Degui Zhi
+https://github.com/jamesmullenbach/caml-mimic,jamesmullenbach,caml-mimic,jamesmullenbach/caml-mimic,User,False,James Mullenbach
+https://github.com/onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM,onejune2018,Awesome-Medical-Healthcare-Dataset-For-LLM,onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM,User,False,JUN
+https://github.com/GanjinZero/ChineseEHRBert,GanjinZero,ChineseEHRBer,GanjinZero/ChineseEHRBer,User,False,Zheng Yuan
+https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical,iamarunbrahma,finetuned-qlora-falcon7b-medical,iamarunbrahma/finetuned-qlora-falcon7b-medical,User,False,Arun Brahma
+https://github.com/mingze-yuan/Awesome-LLM-Healthcare,mingze-yuan,Awesome-LLM-Healthcare,mingze-yuan/Awesome-LLM-Healthcare,User,False,Mingze Yuan
+https://github.com/edaaydinea/AI-Projects-for-Healthcare,edaaydinea,AI-Projects-for-Healthcare,edaaydinea/AI-Projects-for-Healthcare,User,False,Eda AYDIN
+https://github.com/robi56/Survival-Analysis-using-Deep-Learning,robi56,Survival-Analysis-using-Deep-Learnin,robi56/Survival-Analysis-using-Deep-Learnin,User,False,Rabindra Nath Nandi
+https://github.com/ppazos/cabolabs-ehrserver,ppazos,cabolabs-ehrserver,ppazos/cabolabs-ehrserver,User,False,Pablo Pazos Gutiérrez
+https://github.com/senaranya/HL7,senaranya,HL7,senaranya/HL7,User,False,Aranya Sen
+https://github.com/xliucs/MTTS-CAN,xliucs,MTTS-CAN,xliucs/MTTS-CAN,User,False,Xin Liu
+https://github.com/ZhiGroup/pytorch_ehr,ZhiGroup,pytorch_ehr,ZhiGroup/pytorch_ehr,User,False,Degui Zhi
+https://github.com/brynlewis/C-CDA_Viewer,brynlewis,C-CDA_Viewer,brynlewis/C-CDA_Viewer,User,False,Bryn Lewis
+https://github.com/dcarbone/php-fhir,dcarbone,php-fhir,dcarbone/php-fhir,User,False,Daniel Carbone
+https://github.com/McJackTang/MMPD_rPPG_dataset,McJackTang,MMPD_rPPG_datase,McJackTang/MMPD_rPPG_datase,User,False,Jack Tang
+https://github.com/Ahryman40k/typescript-fhir-types,Ahryman40k,typescript-fhir-types,Ahryman40k/typescript-fhir-types,User,False,Ahryman40k
+https://github.com/shamil-t/ehr-blockchain,shamil-t,ehr-blockchain,shamil-t/ehr-blockchain,User,False,SHAMIL T
+https://github.com/KaiHe-better/LLM-for-Healthcare,KaiHe-better,LLM-for-Healthcare,KaiHe-better/LLM-for-Healthcare,User,False,Kai He
+https://github.com/hitgeek/simple-hl7,hitgeek,simple-hl7,hitgeek/simple-hl7,User,False,Bob Rupp
+https://github.com/Refactoring/ECGToolkit,Refactoring,ECGToolk,Refactoring/ECGToolk,User,False,Refactoring
+https://github.com/llSourcell/AI_for_healthcare,llSourcell,AI_for_healthcare,llSourcell/AI_for_healthcare,User,False,Siraj Raval
+https://github.com/deoxxa/hl7,deoxxa,hl7,deoxxa/hl7,User,False,Conrad Pankoff
+https://github.com/wshi83/EhrAgent,wshi83,EhrAgen,wshi83/EhrAgen,User,False,Wenqi Shi
+https://github.com/yashverma9/AI-Blockchain-Electronic-Health-Records-Management-System,yashverma9,AI-Blockchain-Electronic-Health-Records-Management-System,yashverma9/AI-Blockchain-Electronic-Health-Records-Management-System,User,False,
+https://github.com/SaravananSubramanian/hl7,SaravananSubramanian,hl7,SaravananSubramanian/hl7,User,False,Saravanan Subramanian
+https://github.com/GinoCanessa/FhirDevVideoNotes,GinoCanessa,FhirDevVideoNotes,GinoCanessa/FhirDevVideoNotes,User,False,Gino Canessa
+https://github.com/segfault/ruby-hl7,segfault,ruby-hl7,segfault/ruby-hl7,User,False,Mark Guzman
+https://github.com/glee4810/EHRSQL,glee4810,EHRSQL,glee4810/EHRSQL,User,False,Gyubok Lee
+https://github.com/callahantiff/OMOP2OBO,callahantiff,OMOP2OBO,callahantiff/OMOP2OBO,User,False,Tiffany J. Callahan
+https://github.com/gml16/rl-medical,gml16,rl-medical,gml16/rl-medical,User,False,Guy Leroy
+https://github.com/dib0/NHapiTools,dib0,NHapiTools,dib0/NHapiTools,User,False,Bas van den Berg
+https://github.com/baeseongsu/ehrxqa,baeseongsu,ehrxqa,baeseongsu/ehrxqa,User,False,baeseongsu
+https://github.com/ycq091044/SafeDrug,ycq091044,SafeDru,ycq091044/SafeDru,User,False,Chaoqi Yang
+https://github.com/dib0/HL7Fuse,dib0,HL7Fuse,dib0/HL7Fuse,User,False,Bas van den Berg
+https://github.com/rvandewater/YAIB,rvandewater,YAIB,rvandewater/YAIB,User,False,Robin van de Water
+https://github.com/kennethleungty/Generative-AI-Pharmacist,kennethleungty,Generative-AI-Pharmacis,kennethleungty/Generative-AI-Pharmacis,User,False,Kenneth Leung
+https://github.com/shihjay2/nosh2,shihjay2,nosh2,shihjay2/nosh2,User,False,"Michael Shihjay Chen, MD"
+https://github.com/wanghaisheng/fhir-cn,wanghaisheng,fhir-cn,wanghaisheng/fhir-cn,User,False,HeisenBerg?
+https://github.com/nikit0ns/artificial-intelligence-library,nikit0ns,artificial-intelligence-library,nikit0ns/artificial-intelligence-library,User,False,Nikita Kasyanenko
+https://github.com/ivanwilliammd/satusehat-integration,ivanwilliammd,satusehat-integration,ivanwilliammd/satusehat-integration,User,False,Ivan William Harsono
+https://github.com/yahskapar/MA-rPPG-Video-Toolbox,yahskapar,MA-rPPG-Video-Toolbox,yahskapar/MA-rPPG-Video-Toolbox,User,False,Akshay Paruchuri
+https://github.com/leandromineti/awesome-healthmetrics,leandromineti,awesome-healthmetrics,leandromineti/awesome-healthmetrics,User,False,Leandro Mineti
+https://github.com/RobHolme/vscode-hl7tools,RobHolme,vscode-hl7tools,RobHolme/vscode-hl7tools,User,False,Rob Holme
+https://github.com/Zzocker/EHR-on-blockchain,Zzocker,EHR-on-blockchain,Zzocker/EHR-on-blockchain,User,False,Pritam Singh
+https://github.com/jmandel/health-record-mcp,jmandel,health-record-mcp,jmandel/health-record-mcp,User,False,Josh Mandel
+https://github.com/IoBT-VISTEC/EEGWaveNet,IoBT-VISTEC,EEGWaveNe,IoBT-VISTEC/EEGWaveNe,User,False,INTERFACES
+https://github.com/FlixCoder/fhir-sdk,FlixCoder,fhir-sdk,FlixCoder/fhir-sdk,User,False,Flix
+https://github.com/fernandojsg/hl7-dictionary,fernandojsg,hl7-dictionary,fernandojsg/hl7-dictionary,User,False,Fernando Serrano
+https://github.com/rbren/fhir-swagger,rbren,fhir-swagger,rbren/fhir-swagger,User,False,Robert Brennan
+https://github.com/MatthewVita/node-hl7-complete,MatthewVita,node-hl7-complete,MatthewVita/node-hl7-complete,User,False,mvim
+https://github.com/dolphin-dev/OpenDolphin,dolphin-dev,OpenDolphin,dolphin-dev/OpenDolphin,User,False,Open Dolphin
+https://github.com/Lorex/FHIR-Universal-Conversion-Kit,Lorex,FHIR-Universal-Conversion-K,Lorex/FHIR-Universal-Conversion-K,User,False,Lorex
+https://github.com/ironbridgecorp/hl7-standard,ironbridgecorp,hl7-standard,ironbridgecorp/hl7-standard,User,False,Iron Bridge
+https://github.com/Cicatriiz/healthcare-mcp-public,Cicatriiz,healthcare-mcp-public,Cicatriiz/healthcare-mcp-public,User,False,Forrest Babola
+https://github.com/dermatologist/pyomop,dermatologist,pyomop,dermatologist/pyomop,User,False,Bell Eapen
+https://github.com/spiros/chronological-map-phenotypes,spiros,chronological-map-phenotypes,spiros/chronological-map-phenotypes,User,False,Spiros Denaxas
+https://github.com/EdiNation/OpenEDI-Specification,EdiNation,OpenEDI-Specification,EdiNation/OpenEDI-Specification,User,False,
+https://github.com/USM-CHU-FGuyon/BlendedICU,USM-CHU-FGuyon,BlendedICU,USM-CHU-FGuyon/BlendedICU,User,False,Matthieu Oliver
+https://github.com/yhzhu99/covid-ehr-benchmarks,yhzhu99,covid-ehr-benchmarks,yhzhu99/covid-ehr-benchmarks,User,False,Yinghao Zhu
+https://github.com/MedShake/MedShakeEHR-base,MedShake,MedShakeEHR-base,MedShake/MedShakeEHR-base,User,False,MedShake
+https://github.com/AlexSWong/COVID-Net,AlexSWong,COVID-Ne,AlexSWong/COVID-Ne,User,False,
+https://github.com/whaleloops/TransformEHR,whaleloops,TransformEHR,whaleloops/TransformEHR,User,False,
+https://github.com/rafiattrach/m3,rafiattrach,m3,rafiattrach/m3,User,False,Rafi Al Attrach
+https://github.com/jcomellas/ex_hl7,jcomellas,ex_hl7,jcomellas/ex_hl7,User,False,Juan Jose Comellas
+https://github.com/dermatologist/fhiry,dermatologist,fhiry,dermatologist/fhiry,User,False,Bell Eapen
+https://github.com/wardle/hades,wardle,hades,wardle/hades,User,False,Mark Wardle
+https://github.com/liuqidong07/LEADER-pytorch,liuqidong07,LEADER-pytorch,liuqidong07/LEADER-pytorch,User,False,Qidong Liu
+https://github.com/baowaly/SynthEHR,baowaly,SynthEHR,baowaly/SynthEHR,User,False,Mrinal Kanti Baowaly
+https://github.com/harshthakkar2603/Blockchain_EHR,harshthakkar2603,Blockchain_EHR,harshthakkar2603/Blockchain_EHR,User,False,Harsh Thakkar
+https://github.com/LuChang-CS/MTGAN,LuChang-CS,MTGAN,LuChang-CS/MTGAN,User,False,Chang Lu
+https://github.com/dcarbone/php-fhir-generated,dcarbone,php-fhir-generated,dcarbone/php-fhir-generated,User,False,Daniel Carbone
+https://github.com/ritaranx/RAM-EHR,ritaranx,RAM-EHR,ritaranx/RAM-EHR,User,False,Ran Xu
+https://github.com/RobHolme/HL7-Listener,RobHolme,HL7-Listener,RobHolme/HL7-Listener,User,False,Rob Holme
+https://github.com/mmcdermott/comprehensive_MTL_EHR,mmcdermott,comprehensive_MTL_EHR,mmcdermott/comprehensive_MTL_EHR,User,False,Matthew McDermott
+https://github.com/wangmengsd/pdd-graph,wangmengsd,pdd-graph,wangmengsd/pdd-graph,User,False,
+https://github.com/v1xerunt/RHealth,v1xerunt,RHealth,v1xerunt/RHealth,User,False,Junyi Gao
+https://github.com/jmandel/fhir-js-client,jmandel,fhir-js-clien,jmandel/fhir-js-clien,User,False,Josh Mandel
+https://github.com/BenGlicksberg/ROMOP,BenGlicksberg,ROMOP,BenGlicksberg/ROMOP,User,False,Ben Glicksberg
+https://github.com/shalkam/gql-fhir,shalkam,gql-fhir,shalkam/gql-fhir,User,False,Mostafa Sholkamy
+https://github.com/RobHolme/HL7-Powershell-Module,RobHolme,HL7-Powershell-Module,RobHolme/HL7-Powershell-Module,User,False,Rob Holme
+https://github.com/glory-kasongo-03/Doctor_appointment_booking_system,glory-kasongo-03,Doctor_appointment_booking_system,glory-kasongo-03/Doctor_appointment_booking_system,User,False,Glory Kasongo
+https://github.com/weimin17/Multimodal_Transformer,weimin17,Multimodal_Transformer,weimin17/Multimodal_Transformer,User,False,Weimin
+https://github.com/ruoyu-chen/dl4ehr_papers,ruoyu-chen,dl4ehr_papers,ruoyu-chen/dl4ehr_papers,User,False,Ruoyu Chen
+https://github.com/nazrulworld/fhirpath,nazrulworld,fhirpath,nazrulworld/fhirpath,User,False,Md Nazrul Islam
+https://github.com/tiloc/faiadashu,tiloc,faiadashu,tiloc/faiadashu,User,False,Tilo
+https://github.com/cmiles74/clojure-hl7-messaging-2-parser,cmiles74,clojure-hl7-messaging-2-parser,cmiles74/clojure-hl7-messaging-2-parser,User,False,Christopher Miles
+https://github.com/wshi83/MedAdapter,wshi83,MedAdapter,wshi83/MedAdapter,User,False,Wenqi Shi
+https://github.com/siddythings/system-prompts-and-models-of-ai-tools,siddythings,system-prompts-and-models-of-ai-tools,siddythings/system-prompts-and-models-of-ai-tools,User,False,siddhart
+https://github.com/ji-youn-kim/EHRNoteQA,ji-youn-kim,EHRNoteQA,ji-youn-kim/EHRNoteQA,User,False,Jiyoun Kim
+https://github.com/dshills/golevel7,dshills,golevel7,dshills/golevel7,User,False,Davin Hills
+https://github.com/acadTags/Rare-disease-identification,acadTags,Rare-disease-identification,acadTags/Rare-disease-identification,User,False,Hang Dong
+https://github.com/yy6linda/synthetic-ehr-benchmarking,yy6linda,synthetic-ehr-benchmarkin,yy6linda/synthetic-ehr-benchmarkin,User,False,
+https://github.com/dorlugasigal/MiniClean.Template,dorlugasigal,MiniClean.Template,dorlugasigal/MiniClean.Template,User,False,Dor Lugasi-Gal
+https://github.com/ekryski/node-hl7,ekryski,node-hl7,ekryski/node-hl7,User,False,Eric Kryski
+https://github.com/niquola/fhir-schema,niquola,fhir-schema,niquola/fhir-schema,User,False,Nikolai Ryzhikov
+https://github.com/rimiti/hl7-object-parser,rimiti,hl7-object-parser,rimiti/hl7-object-parser,User,False,Dimitri DO BAIRRO
+https://github.com/brianpos/fhir-net-web-api,brianpos,fhir-net-web-ap,brianpos/fhir-net-web-ap,User,False,Brian Postlethwaite
+https://github.com/philipdarke/ukbb-ehr-data,philipdarke,ukbb-ehr-data,philipdarke/ukbb-ehr-data,User,False,Philip Darke
+https://github.com/dshills/gofhir,dshills,gofhir,dshills/gofhir,User,False,Davin Hills
+https://github.com/RyanWangZf/PromptEHR,RyanWangZf,PromptEHR,RyanWangZf/PromptEHR,User,False,Zephyr
+https://github.com/Chinlinlee/Burni,Chinlinlee,Burn,Chinlinlee/Burn,User,False,a5566qq123
+https://github.com/davebronson/clear-hl7-net,davebronson,clear-hl7-ne,davebronson/clear-hl7-ne,User,False,
+https://github.com/ivanwilliammd/satusehat-laravel-example,ivanwilliammd,satusehat-laravel-example,ivanwilliammd/satusehat-laravel-example,User,False,Ivan William Harsono
+https://github.com/j4jayant/hl7-cSharp-parser,j4jayant,hl7-cSharp-parser,j4jayant/hl7-cSharp-parser,User,False,Jayant Singh
+https://github.com/ylboerner/Einthoven,ylboerner,Einthoven,ylboerner/Einthoven,User,False,Yannick Boerner
+https://github.com/sczzz3/EHRDiff,sczzz3,EHRDiff,sczzz3/EHRDiff,User,False,sc zz
+https://github.com/draaslan/blood-cell-detection-dataset,draaslan,blood-cell-detection-datase,draaslan/blood-cell-detection-datase,User,False,Abdüssamet Aslan
+https://github.com/ritaranx/CACHE,ritaranx,CACHE,ritaranx/CACHE,User,False,Ran Xu
+https://github.com/spiros/ukb-biomarker-phenotypes,spiros,ukb-biomarker-phenotypes,spiros/ukb-biomarker-phenotypes,User,False,Spiros Denaxas
+https://github.com/LaMMMy/HL7Parser,LaMMMy,HL7Parser,LaMMMy/HL7Parser,User,False,
+https://github.com/Bugs5382/node-hl7-client,Bugs5382,node-hl7-clien,Bugs5382/node-hl7-clien,User,False,Shane
+https://github.com/itsLeonB/rekam-medis-elektronik,itsLeonB,rekam-medis-elektronik,itsLeonB/rekam-medis-elektronik,User,False,Ellion Blessan
+https://github.com/cyanheads/clinicaltrialsgov-mcp-server,cyanheads,clinicaltrialsgov-mcp-server,cyanheads/clinicaltrialsgov-mcp-server,User,False,Casey Hand
+https://github.com/hungnlp/viBioGPT,hungnlp,viBioGPT,hungnlp/viBioGPT,User,False,Hung Nguyen
+https://github.com/kwboone/FHIR-JSON-to-XML-Converter,kwboone,FHIR-JSON-to-XML-Converter,kwboone/FHIR-JSON-to-XML-Converter,User,False,Keith W. Boone
+https://github.com/yehezkel/gohl7,yehezkel,gohl7,yehezkel/gohl7,User,False,Yehezkel Pernas
+https://github.com/schmalle/medpot,schmalle,medpo,schmalle/medpo,User,False,Markus Schmall
+https://github.com/mithun008/FHIRServer,mithun008,FHIRServer,mithun008/FHIRServer,User,False,Mithun Mallick
+https://github.com/angusmillar/SmartHealthCard,angusmillar,SmartHealthCard,angusmillar/SmartHealthCard,User,False,Angus Millar
+https://github.com/angusmillar/Deprecated-Pyro,angusmillar,Deprecated-Pyro,angusmillar/Deprecated-Pyro,User,False,Angus Millar
+https://github.com/hansenms/FhirLoader,hansenms,FhirLoader,hansenms/FhirLoader,User,False,Michael Hansen
+https://github.com/evanlucas/nodengine-hl7,evanlucas,nodengine-hl7,evanlucas/nodengine-hl7,User,False,Evan Lucas
+https://github.com/dustn1259/EHRCon,dustn1259,EHRCon,dustn1259/EHRCon,User,False,Yeonsu Kwon
+https://github.com/SaxxonPike/NextLevelSeven,SaxxonPike,NextLevelSeven,SaxxonPike/NextLevelSeven,User,False,Tony Konzel
+https://github.com/scotthlee/NRC,scotthlee,NRC,scotthlee/NRC,User,False,Scott Lee
+https://github.com/JohannesOehm/FhirExtinguisher,JohannesOehm,FhirExtinguisher,JohannesOehm/FhirExtinguisher,User,False,Johannes Oehm
+https://github.com/akiani/gym-sepsis,akiani,gym-sepsis,akiani/gym-sepsis,User,False,Amir Kiani
+https://github.com/yhzhu99/pyehr,yhzhu99,pyehr,yhzhu99/pyehr,User,False,Yinghao Zhu
+https://github.com/yhzhu99/HealthFlow,yhzhu99,HealthFlow,yhzhu99/HealthFlow,User,False,Yinghao Zhu
+https://github.com/jmandel/kiln,jmandel,kiln,jmandel/kiln,User,False,Josh Mandel
+https://github.com/dgrinberg/HL7-Snoop,dgrinberg,HL7-Snoop,dgrinberg/HL7-Snoop,User,False,David Grinberg
+https://github.com/athiththan11/FHIR-to-Swagger,athiththan11,FHIR-to-Swagger,athiththan11/FHIR-to-Swagger,User,False,Athiththan Kathirgamasegaran
+https://github.com/chrisby/ml-on-fhir,chrisby,ml-on-fhir,chrisby/ml-on-fhir,User,False,Christian Bock
+https://github.com/lhs-open/synthetic-data,lhs-open,synthetic-data,lhs-open/synthetic-data,User,False,Open LHS
+https://github.com/mujiyantosvc/Facial-Expression-Recognition-FER-for-Mental-Health-Detection-,mujiyantosvc,Facial-Expression-Recognition-FER-for-Mental-Health-Detection-,mujiyantosvc/Facial-Expression-Recognition-FER-for-Mental-Health-Detection-,User,False,Mujiyanto Amikom
+https://github.com/dermatologist/kedro-multimodal,dermatologist,kedro-multimodal,dermatologist/kedro-multimodal,User,False,Bell Eapen
+https://github.com/ocrickard/fhir-rs,ocrickard,fhir-rs,ocrickard/fhir-rs,User,False,Oliver Clark Rickard
+https://github.com/nickvane/OpenEHR,nickvane,OpenEHR,nickvane/OpenEHR,User,False,Nick Van Eeckhout
+https://github.com/hansenms/FhirDemo,hansenms,FhirDemo,hansenms/FhirDemo,User,False,Michael Hansen
+https://github.com/brianpos/FhirPathTester,brianpos,FhirPathTester,brianpos/FhirPathTester,User,False,Brian Postlethwaite
+https://github.com/johnpaulett/txHL7,johnpaulett,txHL7,johnpaulett/txHL7,User,False,John Paulett
+https://github.com/sajaddarabi/TAPER-EHR,sajaddarabi,TAPER-EHR,sajaddarabi/TAPER-EHR,User,False,Sajad Darabi
+https://github.com/dermatologist/fhir-questionnaire-render-react,dermatologist,fhir-questionnaire-render-reac,dermatologist/fhir-questionnaire-render-reac,User,False,Bell Eapen
+https://github.com/MohsinRazaKhanSipra/EHR-django,MohsinRazaKhanSipra,EHR-django,MohsinRazaKhanSipra/EHR-django,User,False,Mohsin Raza
+https://github.com/HealthInnovators/MedChat-AI,HealthInnovators,MedChat-AI,HealthInnovators/MedChat-AI,User,False,Dr. Kalyan Kalwa
+https://github.com/gotdan/flatquack,gotdan,flatquack,gotdan/flatquack,User,False,Dan Gottlieb
+https://github.com/nhunguet/AI4healthcare,nhunguet,AI4healthcare,nhunguet/AI4healthcare,User,False,Nhung
+https://github.com/seonhee99/EHR-SeqSQL,seonhee99,EHR-SeqSQL,seonhee99/EHR-SeqSQL,User,False,
+https://github.com/fhirfly/fhirpower,fhirfly,fhirpower,fhirfly/fhirpower,User,False,FHIRFLY
+https://github.com/nazrulworld/fhir-core,nazrulworld,fhir-core,nazrulworld/fhir-core,User,False,Md Nazrul Islam
+https://github.com/erikhoward/azure-fhir-mcp-server,erikhoward,azure-fhir-mcp-server,erikhoward/azure-fhir-mcp-server,User,False,Erik Howard
+https://github.com/329162516/medprompt,329162516,medpromp,329162516/medpromp,User,False,
+https://github.com/AI-Hub-Admin/HealthcareAgent,AI-Hub-Admin,HealthcareAgen,AI-Hub-Admin/HealthcareAgen,User,False,AI-Hub-Admin
+https://github.com/Bugs5382/node-hl7-server,Bugs5382,node-hl7-server,Bugs5382/node-hl7-server,User,False,Shane
+https://github.com/alimoezzi/ReportQL,alimoezzi,ReportQL,alimoezzi/ReportQL,User,False,Ali Moezzi
+https://github.com/ji-youn-kim/EHRFL,ji-youn-kim,EHRFL,ji-youn-kim/EHRFL,User,False,Jiyoun Kim
+https://github.com/chaseastewart/fhir-converter,chaseastewart,fhir-converter,chaseastewart/fhir-converter,User,False,Chase Stewart
+https://github.com/drmuskangarg/SLMs-in-healthcare,drmuskangarg,SLMs-in-healthcare,drmuskangarg/SLMs-in-healthcare,User,False,"Muskan Garg, PhD"
+https://github.com/chenxran/synthEHRella,chenxran,synthEHRella,chenxran/synthEHRella,User,False,Xingran Chen
+https://github.com/yhzhu99/ehr-llm-benchmark,yhzhu99,ehr-llm-benchmark,yhzhu99/ehr-llm-benchmark,User,False,Yinghao Zhu
+https://github.com/PRITHIVSAKTHIUR/EHRM-Website,PRITHIVSAKTHIUR,EHRM-Website,PRITHIVSAKTHIUR/EHRM-Website,User,False,PRITHIV SAKTHI U R
+https://github.com/wangziyu99/HealthQ-LLM-Healthcare-Benchmark,wangziyu99,HealthQ-LLM-Healthcare-Benchmark,wangziyu99/HealthQ-LLM-Healthcare-Benchmark,User,False,Ziyu Wang
+https://github.com/dek924/EHRXDiff,dek924,EHRXDiff,dek924/EHRXDiff,User,False,
+https://github.com/jy95/fhir-dosage-utils,jy95,fhir-dosage-utils,jy95/fhir-dosage-utils,User,False,Jacques Yakoub
+https://github.com/kelkalot/normedqa,kelkalot,normedqa,kelkalot/normedqa,User,False,Michael A. Riegler
+https://github.com/Artessay/DearLLM,Artessay,DearLLM,Artessay/DearLLM,User,False,Rihong Qiu
+https://github.com/HowieHsu0126/AwesomeEHR,HowieHsu0126,AwesomeEHR,HowieHsu0126/AwesomeEHR,User,False,Haowei
+https://github.com/EternityYW/FairEHR-CLP,EternityYW,FairEHR-CLP,EternityYW/FairEHR-CLP,User,False,Yuqing Wang
+https://github.com/ericpan64/chidian,ericpan64,chidian,ericpan64/chidian,User,False,Eric S Pan
