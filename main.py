@@ -40,6 +40,13 @@ st.markdown(
         border-left: 4px solid #1f77b4;
         margin: 1rem 0;
     }
+    .info-box {
+        background-color: #e8f4f8;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-left: 4px solid #1f77b4;
+        margin: 1rem 0;
+    }
     </style>
 """,
     unsafe_allow_html=True,
@@ -209,6 +216,7 @@ try:
         filtered_df = filtered_df[filtered_df["Standard"] == selected_standard]
 
     # Overview metrics
+    col1, col2, col3, col4, col5 = st.columns(5)
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         st.metric("Total Repositories", len(filtered_df))
@@ -877,6 +885,7 @@ try:
             col1, col2 = st.columns(2)
 
             with col1:
+                st.markdown(f"#### Top 20 Contributors by {metric_for_chart}")
                 st.markdown(f"#### Top 20 Contributors by {metric_for_chart}")
                 fig7 = px.bar(
                     top_contributors,
