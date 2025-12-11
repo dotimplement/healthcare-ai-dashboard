@@ -395,8 +395,6 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _(color_palette, df_interop, go):
-    from plotly.subplots import make_subplots
-
     # Prepare data for left chart (subcategory counts)
     subcat_counts = df_interop["Subcat"].value_counts()
 
@@ -409,20 +407,9 @@ def _(color_palette, df_interop, go):
         .copy()
     )
 
-    # Create subplots
-    _fig = make_subplots(
-        rows=1,
-        cols=2,
-        subplot_titles=(
-            "Breakdown of Interoperability Repos",
-            "Top 10 Interoperability Repos",
-        ),
-        horizontal_spacing=0.2,
-        specs=[[{"type": "bar"}, {"type": "bar"}]],
-    )
-
     # LEFT CHART: Subcategory counts
-    _fig.add_trace(
+    _fig1 = go.Figure()
+    _fig1.add_trace(
         go.Bar(
             x=subcat_counts.values,
             y=subcat_counts.index,
@@ -432,13 +419,22 @@ def _(color_palette, df_interop, go):
             textposition="inside",
             textfont=dict(size=12),
             showlegend=False,
-        ),
-        row=1,
-        col=1,
+        )
     )
+    _fig1.update_xaxes(title_text="Number of Repositories", automargin=True)
+    _fig1.update_yaxes(categoryorder="total ascending", automargin=True)
+    _fig1.update_layout(
+        title_text="Breakdown of Interoperability Repos",
+        template="plotly_white",
+        height=500,
+        width=700,
+        autosize=True,
+    )
+    _fig1.show()
+    _fig1.write_image("./nice_plots/interoperability_breakdown.png")
 
     # RIGHT CHART: Top repos by stars (colored by subcategory)
-    # Get unique subcategories for coloring
+    _fig2 = go.Figure()
     subcats_in_top = interop_top_repo_stars["Subcat"].unique()
     subcat_color_map = {
         subcat: color_palette[i % len(color_palette)]
@@ -447,8 +443,7 @@ def _(color_palette, df_interop, go):
 
     for subcat in subcats_in_top:
         subcat_data = interop_top_repo_stars[interop_top_repo_stars["Subcat"] == subcat]
-
-        _fig.add_trace(
+        _fig2.add_trace(
             go.Bar(
                 x=subcat_data["Stars"],
                 y=subcat_data.index,
@@ -460,25 +455,16 @@ def _(color_palette, df_interop, go):
                 textfont=dict(size=12),
                 legendgroup=subcat,
                 showlegend=True,
-            ),
-            row=1,
-            col=2,
+            )
         )
 
-    # Update axes
-    _fig.update_xaxes(
-        title_text="Number of Repositories", row=1, col=1, automargin=True
-    )
-    _fig.update_xaxes(title_text="Number of Stars", row=1, col=2, automargin=True)
-    _fig.update_yaxes(categoryorder="total ascending", row=1, col=1, automargin=True)
-    _fig.update_yaxes(categoryorder="total ascending", row=1, col=2, automargin=True)
-
-    # Update layout
-    _fig.update_layout(
-        title_text="Please Sir, may I have some Data?",
+    _fig2.update_xaxes(title_text="Number of Stars", automargin=True)
+    _fig2.update_yaxes(categoryorder="total ascending", automargin=True)
+    _fig2.update_layout(
+        title_text="Top 10 Interoperability Repos",
         template="plotly_white",
         height=500,
-        width=1400,
+        width=700,
         showlegend=True,
         legend=dict(
             title=dict(text="Subcat"),
@@ -490,10 +476,10 @@ def _(color_palette, df_interop, go):
         ),
         autosize=True,
     )
+    _fig2.show()
+    _fig2.write_image("./nice_plots/interoperability_top_repos.png")
 
-    _fig.show()
-    _fig.write_image("./nice_plots/interoperability_combined.png")
-    return interop_top_repo_stars, make_subplots, subcat_counts
+    return interop_top_repo_stars, subcat_counts
 
 
 @app.cell(hide_code=True)
@@ -521,9 +507,8 @@ def _(color_palette, df_health, px):
 
 
 @app.cell
-def _(color_palette, df_model_dev, go, make_subplots, subcat_counts):
+def _(color_palette, df_model_dev, go, subcat_counts):
     # Prepare data for left chart (subcategory counts)
-
     _subcat_counts = df_model_dev["Subcat"].value_counts()
 
     # Prepare data for right chart (top repos)
@@ -535,20 +520,9 @@ def _(color_palette, df_model_dev, go, make_subplots, subcat_counts):
         .copy()
     )
 
-    # Create subplots
-    _fig = make_subplots(
-        rows=1,
-        cols=2,
-        subplot_titles=(
-            "Breakdown of Model Development Repos",
-            "Top 10 Model Development Repos",
-        ),
-        horizontal_spacing=0.2,
-        specs=[[{"type": "bar"}, {"type": "bar"}]],
-    )
-
     # LEFT CHART: Subcategory counts
-    _fig.add_trace(
+    _fig1 = go.Figure()
+    _fig1.add_trace(
         go.Bar(
             x=_subcat_counts.values,
             y=_subcat_counts.index,
@@ -558,13 +532,22 @@ def _(color_palette, df_model_dev, go, make_subplots, subcat_counts):
             textposition="inside",
             textfont=dict(size=12),
             showlegend=False,
-        ),
-        row=1,
-        col=1,
+        )
     )
+    _fig1.update_xaxes(title_text="Number of Repositories", automargin=True)
+    _fig1.update_yaxes(categoryorder="total ascending", automargin=True)
+    _fig1.update_layout(
+        title_text="Breakdown of Model Development Repos",
+        template="plotly_white",
+        height=500,
+        width=700,
+        autosize=True,
+    )
+    _fig1.show()
+    _fig1.write_image("./nice_plots/model_development_breakdown.png")
 
     # RIGHT CHART: Top repos by stars (colored by subcategory)
-    # Get unique subcategories for coloring
+    _fig2 = go.Figure()
     _subcats_in_top = md_top_repo_stars["Subcat"].unique()
     _subcat_color_map = {
         subcat: color_palette[i % len(color_palette)]
@@ -573,8 +556,7 @@ def _(color_palette, df_model_dev, go, make_subplots, subcat_counts):
 
     for _subcat in _subcats_in_top:
         _subcat_data = md_top_repo_stars[md_top_repo_stars["Subcat"] == _subcat]
-
-        _fig.add_trace(
+        _fig2.add_trace(
             go.Bar(
                 x=_subcat_data["Stars"],
                 y=_subcat_data.index,
@@ -586,25 +568,16 @@ def _(color_palette, df_model_dev, go, make_subplots, subcat_counts):
                 textfont=dict(size=12),
                 legendgroup=_subcat,
                 showlegend=True,
-            ),
-            row=1,
-            col=2,
+            )
         )
 
-    # Update axes
-    _fig.update_xaxes(
-        title_text="Number of Repositories", row=1, col=1, automargin=True
-    )
-    _fig.update_xaxes(title_text="Number of Stars", row=1, col=2, automargin=True)
-    _fig.update_yaxes(categoryorder="total ascending", row=1, col=1, automargin=True)
-    _fig.update_yaxes(categoryorder="total ascending", row=1, col=2, automargin=True)
-
-    # Update layout
-    _fig.update_layout(
-        title_text="D'ya like models?",
+    _fig2.update_xaxes(title_text="Number of Stars", automargin=True)
+    _fig2.update_yaxes(categoryorder="total ascending", automargin=True)
+    _fig2.update_layout(
+        title_text="Top 10 Model Development Repos",
         template="plotly_white",
         height=500,
-        width=1400,
+        width=700,
         showlegend=True,
         legend=dict(
             title=dict(text="Subcat"),
@@ -616,9 +589,8 @@ def _(color_palette, df_model_dev, go, make_subplots, subcat_counts):
         ),
         autosize=True,
     )
-
-    _fig.show()
-    _fig.write_image("./nice_plots/model_development_combined.png")
+    _fig2.show()
+    _fig2.write_image("./nice_plots/model_development_top_repos.png")
     return
 
 
@@ -709,19 +681,13 @@ def _(color_palette, df_health, go):
 
 @app.cell
 def _(color_palette, df_health):
-    def plot_hai_engineering_combined(
-        repos_df, category_col="category", subcat_col="subcat"
-    ):
+    def plot_hai_engineering_timeline(repos_df, category_col="category"):
         """
-        Create stacked subplots with:
-        - Top: Time series of HAI Engineering repository creation over time
-        - Bottom: Horizontal bar chart of HAI Engineering subcategory breakdown
+        Create a time series chart of HAI Engineering repository creation over time.
         Args:
-            repos_df: DataFrame with columns ['date_created', category_col, subcat_col]
+            repos_df: DataFrame with columns ['date_created', category_col]
             category_col: Name of the category column
-            subcat_col: Name of the subcategory column
         """
-        from plotly.subplots import make_subplots
         import plotly.graph_objects as go
         import plotly.express as px
 
@@ -729,19 +695,10 @@ def _(color_palette, df_health):
         hai_df = repos_df[repos_df[category_col] == "HAI engineering"].copy()
         hai_df = hai_df.sort_values("Created")
 
-        # Create subplots - vertical stack
-        fig = make_subplots(
-            rows=2,
-            cols=1,
-            subplot_titles=(
-                "HAI Engineering Repository Creation Over Time",
-                "HAI Engineering Subcategory Breakdown",
-            ),
-            vertical_spacing=0.15,
-            row_heights=[0.5, 0.5],
-        )
+        # Create figure
+        fig = go.Figure()
 
-        # TOP CHART: Time series of repo creation
+        # Time series of repo creation
         hai_df["year"] = hai_df["Created"].dt.year
         yearly_counts = hai_df.groupby("year").size().reset_index(name="count")
 
@@ -756,16 +713,47 @@ def _(color_palette, df_health):
                 line=dict(width=3, color=px.colors.qualitative.Set2[0]),
                 marker=dict(size=8, color=px.colors.qualitative.Set2[0]),
                 showlegend=False,
-            ),
-            row=1,
-            col=1,
+            )
         )
 
-        # BOTTOM CHART: Horizontal bar chart of subcategories
-        subcat_counts = hai_df[subcat_col].value_counts()
+        # Update axes and layout
+        fig.update_xaxes(
+            title_text="Year",
+            tickmode="array",
+            tickvals=all_years,
+            ticktext=[str(year) for year in all_years],
+        )
+        fig.update_yaxes(title_text="Number of Repositories")
 
-        # Assign colors to subcategories
-        # color_palette = px.colors.qualitative.Set3
+        fig.update_layout(
+            title_text="HAI Engineering Repository Creation Over Time",
+            template="plotly_white",
+            height=400,
+            width=800,
+        )
+
+        return fig
+
+    def plot_hai_engineering_breakdown(
+        repos_df, category_col="category", subcat_col="subcat"
+    ):
+        """
+        Create a horizontal bar chart of HAI Engineering subcategory breakdown.
+        Args:
+            repos_df: DataFrame with columns [category_col, subcat_col]
+            category_col: Name of the category column
+            subcat_col: Name of the subcategory column
+        """
+        import plotly.graph_objects as go
+
+        # Filter to HAI Engineering category
+        hai_df = repos_df[repos_df[category_col] == "HAI engineering"].copy()
+
+        # Create figure
+        fig = go.Figure()
+
+        # Horizontal bar chart of subcategories
+        subcat_counts = hai_df[subcat_col].value_counts()
 
         fig.add_trace(
             go.Bar(
@@ -777,43 +765,30 @@ def _(color_palette, df_health):
                 textposition="outside",
                 textfont=dict(size=12),
                 showlegend=False,
-            ),
-            row=2,
-            col=1,
+            )
         )
 
-        # Update axes
-        fig.update_xaxes(
-            title_text="Year",
-            tickmode="array",
-            tickvals=all_years,
-            ticktext=[str(year) for year in all_years],
-            row=1,
-            col=1,
-        )
-        fig.update_yaxes(title_text="Number of Repositories", row=1, col=1)
+        # Update axes and layout
+        fig.update_xaxes(title_text="Number of Repositories", automargin=True)
+        fig.update_yaxes(categoryorder="total ascending", automargin=True)
 
-        fig.update_xaxes(
-            title_text="Number of Repositories", automargin=True, row=2, col=1
-        )
-        fig.update_yaxes(categoryorder="total ascending", automargin=True, row=2, col=1)
-
-        # Update layout
         fig.update_layout(
-            title_text="HAI Engineering Repository Analysis",
+            title_text="HAI Engineering Subcategory Breakdown",
             template="plotly_white",
-            height=800,
+            height=400,
             width=800,
-            showlegend=False,
         )
 
         return fig
 
-    # Example usage:
-    _fig = plot_hai_engineering_combined(
+    # Create both charts
+    _fig1 = plot_hai_engineering_timeline(df_health, category_col="Category")
+    _fig1.write_image("./nice_plots/hai_engineering_timeline.png")
+
+    _fig2 = plot_hai_engineering_breakdown(
         df_health, category_col="Category", subcat_col="Subcat"
     )
-    _fig.write_image("./nice_plots/hai_engineering.png")
+    _fig2.write_image("./nice_plots/hai_engineering_breakdown.png")
     return
 
 
@@ -1340,13 +1315,10 @@ def _(pd, timedelta):
 
         return fig
 
-    def plot_star_history_combined(events_df):
+    def plot_star_history_bar(events_df):
         """
-        Create an interactive Plotly figure with two side-by-side charts sharing a legend:
-        - Left: Grouped bar chart of star contributions by percentage
-        - Right: Line chart showing the gradient between periods
+        Create a grouped bar chart of star contributions by percentage.
         """
-        from plotly.subplots import make_subplots
         import plotly.graph_objects as go
         import plotly.express as px
 
@@ -1379,16 +1351,8 @@ def _(pd, timedelta):
             for i, owner_type in enumerate(sorted(owner_types))
         }
 
-        # Create subplots
-        fig = make_subplots(
-            rows=1,
-            cols=2,
-            subplot_titles=(
-                "Star Contributions by Period (%)",
-                "Trend Between Periods",
-            ),
-            horizontal_spacing=0.12,
-        )
+        # Create figure
+        fig = go.Figure()
 
         # Prepare data
         yearly_data = (
@@ -1405,7 +1369,7 @@ def _(pd, timedelta):
 
         year_order = ["2020-22", "2023-25"]
 
-        # LEFT CHART: Grouped bar chart
+        # Grouped bar chart
         for owner_type in sorted(owner_types):
             owner_data = yearly_data[yearly_data["owner_type"] == owner_type]
             color = colors[owner_type]
@@ -1418,33 +1382,10 @@ def _(pd, timedelta):
                     marker_color=color,
                     legendgroup=owner_type,
                     showlegend=True,
-                ),
-                row=1,
-                col=1,
+                )
             )
 
-        # RIGHT CHART: Line chart
-        for owner_type in sorted(owner_types):
-            owner_data = yearly_data[yearly_data["owner_type"] == owner_type]
-            owner_data = owner_data.sort_values("year_group")
-            color = colors[owner_type]
-
-            fig.add_trace(
-                go.Scatter(
-                    x=owner_data["year_group"],
-                    y=owner_data["percentage"],
-                    name=owner_type.capitalize(),
-                    mode="lines+markers",
-                    line=dict(width=4, color=color),
-                    marker=dict(size=12, color=color),
-                    legendgroup=owner_type,
-                    showlegend=False,
-                ),
-                row=1,
-                col=2,
-            )
-
-        # Update axes
+        # Update axes and layout
         fig.update_xaxes(
             title_text="Year Period",
             type="category",
@@ -1452,45 +1393,20 @@ def _(pd, timedelta):
             categoryarray=year_order,
             title_font=dict(size=18),
             tickfont=dict(size=16),
-            row=1,
-            col=1,
-        )
-
-        fig.update_xaxes(
-            title_text="Year Period",
-            type="category",
-            categoryorder="array",
-            categoryarray=year_order,
-            range=[-0.3, 1.3],
-            title_font=dict(size=18),
-            tickfont=dict(size=16),
-            row=1,
-            col=2,
         )
 
         fig.update_yaxes(
             title_text="Percentage (%)",
             title_font=dict(size=18),
             tickfont=dict(size=16),
-            row=1,
-            col=1,
         )
 
-        fig.update_yaxes(
-            title_text="Percentage (%)",
-            title_font=dict(size=18),
-            tickfont=dict(size=16),
-            row=1,
-            col=2,
-        )
-
-        # Update layout
         fig.update_layout(
-            title_text="GitHub Star Contributions by Category",
+            title_text="Star Contributions by Period (%)",
             hovermode="x unified",
             template="plotly_white",
             height=500,
-            width=1000,
+            width=700,
             font=dict(size=16),
             title_font=dict(size=20),
             legend=dict(
@@ -1505,13 +1421,120 @@ def _(pd, timedelta):
 
         return fig
 
-    def plot_repos_created_combined(repos_df):
+    def plot_star_history_trend(events_df):
         """
-        Create an interactive Plotly figure with two side-by-side charts sharing a legend:
-        - Left: Grouped bar chart of repos created by percentage
-        - Right: Line chart showing the gradient between periods
+        Create a line chart showing the trend between periods.
         """
-        from plotly.subplots import make_subplots
+        import plotly.graph_objects as go
+        import plotly.express as px
+
+        # Filter data
+        events_df = events_df[
+            events_df["owner_type"].isin(
+                ["Research Lab", "Community Project/Non-Profit", "Startup", "Incumbent"]
+            )
+        ]
+        events_df = events_df[events_df["change"] > 0]
+        events_df = events_df.sort_values("date")
+        events_df["year"] = events_df["date"].dt.year
+        events_df = events_df[(events_df["year"] >= 2020) & (events_df["year"] < 2026)]
+
+        # Create year groups
+        def group_years(year):
+            if year in [2020, 2021, 2022]:
+                return "2020-22"
+            elif year in [2023, 2024, 2025]:
+                return "2023-25"
+            return str(year)
+
+        events_df["year_group"] = events_df["year"].apply(group_years)
+
+        # Get unique owner types and colors
+        owner_types = events_df["owner_type"].unique()
+        color_palette = px.colors.qualitative.Set2
+        colors = {
+            owner_type: color_palette[i % len(color_palette)]
+            for i, owner_type in enumerate(sorted(owner_types))
+        }
+
+        # Create figure
+        fig = go.Figure()
+
+        # Prepare data
+        yearly_data = (
+            events_df.groupby(["year_group", "owner_type"])["change"]
+            .sum()
+            .reset_index()
+        )
+
+        yearly_totals = yearly_data.groupby("year_group")["change"].sum().reset_index()
+        yearly_totals.columns = ["year_group", "total"]
+
+        yearly_data = yearly_data.merge(yearly_totals, on="year_group")
+        yearly_data["percentage"] = (yearly_data["change"] / yearly_data["total"]) * 100
+
+        year_order = ["2020-22", "2023-25"]
+
+        # Line chart
+        for owner_type in sorted(owner_types):
+            owner_data = yearly_data[yearly_data["owner_type"] == owner_type]
+            owner_data = owner_data.sort_values("year_group")
+            color = colors[owner_type]
+
+            fig.add_trace(
+                go.Scatter(
+                    x=owner_data["year_group"],
+                    y=owner_data["percentage"],
+                    name=owner_type.capitalize(),
+                    mode="lines+markers",
+                    line=dict(width=4, color=color),
+                    marker=dict(size=12, color=color),
+                    legendgroup=owner_type,
+                    showlegend=True,
+                )
+            )
+
+        # Update axes and layout
+        fig.update_xaxes(
+            title_text="Year Period",
+            type="category",
+            categoryorder="array",
+            categoryarray=year_order,
+            range=[-0.3, 1.3],
+            title_font=dict(size=18),
+            tickfont=dict(size=16),
+        )
+
+        fig.update_yaxes(
+            title_text="Percentage (%)",
+            title_font=dict(size=18),
+            tickfont=dict(size=16),
+        )
+
+        fig.update_layout(
+            title_text="Trend Between Periods",
+            hovermode="x unified",
+            template="plotly_white",
+            height=500,
+            width=700,
+            font=dict(size=16),
+            title_font=dict(size=20),
+            legend=dict(
+                orientation="v",
+                yanchor="top",
+                y=1,
+                xanchor="left",
+                x=1.02,
+                font=dict(size=16),
+            ),
+        )
+
+        return fig
+
+    def plot_repos_created_bar(repos_df):
+        """
+        Create a grouped bar chart of repos created by percentage.
+        """
         import plotly.graph_objects as go
         import plotly.express as px
 
@@ -1543,13 +1566,8 @@ def _(pd, timedelta):
             for i, owner_type in enumerate(sorted(owner_types))
         }
 
-        # Create subplots
-        fig = make_subplots(
-            rows=1,
-            cols=2,
-            subplot_titles=("Repos Created by Period (%)", "Trend Between Periods"),
-            horizontal_spacing=0.12,
-        )
+        # Create figure
+        fig = go.Figure()
 
         # Prepare data - count repos by year_group and owner_type
         yearly_data = (
@@ -1566,7 +1584,7 @@ def _(pd, timedelta):
 
         year_order = ["2020-22", "2023-25"]
 
-        # LEFT CHART: Grouped bar chart
+        # Grouped bar chart
         for owner_type in sorted(owner_types):
             owner_data = yearly_data[yearly_data["owner_type"] == owner_type]
             color = colors[owner_type]
@@ -1579,12 +1597,99 @@ def _(pd, timedelta):
                     marker_color=color,
                     legendgroup=owner_type,
                     showlegend=True,
-                ),
-                row=1,
-                col=1,
+                )
             )
 
-        # RIGHT CHART: Line chart
+        # Update axes and layout
+        fig.update_xaxes(
+            title_text="Year Period",
+            type="category",
+            categoryorder="array",
+            categoryarray=year_order,
+            title_font=dict(size=18),
+            tickfont=dict(size=16),
+        )
+
+        fig.update_yaxes(
+            title_text="Percentage (%)",
+            title_font=dict(size=18),
+            tickfont=dict(size=16),
+        )
+
+        fig.update_layout(
+            title_text="Repos Created by Period (%)",
+            hovermode="x unified",
+            template="plotly_white",
+            height=500,
+            width=700,
+            font=dict(size=16),
+            title_font=dict(size=20),
+            legend=dict(
+                orientation="v",
+                yanchor="top",
+                y=1,
+                xanchor="left",
+                x=1.02,
+                font=dict(size=16),
+            ),
+        )
+
+        return fig
+
+    def plot_repos_created_trend(repos_df):
+        """
+        Create a line chart showing the gradient between periods.
+        """
+        import plotly.graph_objects as go
+        import plotly.express as px
+
+        # Filter data
+        repos_df = repos_df[
+            repos_df["owner_type"].isin(
+                ["Research Lab", "Community Project/Non-Profit", "Startup", "Incumbent"]
+            )
+        ]
+        repos_df = repos_df.sort_values("Created")
+        repos_df["year"] = repos_df["Created"].dt.year
+        repos_df = repos_df[(repos_df["year"] >= 2020) & (repos_df["year"] < 2026)]
+
+        # Create year groups
+        def group_years(year):
+            if year in [2020, 2021, 2022]:
+                return "2020-22"
+            elif year in [2023, 2024, 2025]:
+                return "2023-25"
+            return str(year)
+
+        repos_df["year_group"] = repos_df["year"].apply(group_years)
+
+        # Get unique owner types and colors
+        owner_types = repos_df["owner_type"].unique()
+        color_palette = px.colors.qualitative.Set2
+        colors = {
+            owner_type: color_palette[i % len(color_palette)]
+            for i, owner_type in enumerate(sorted(owner_types))
+        }
+
+        # Create figure
+        fig = go.Figure()
+
+        # Prepare data - count repos by year_group and owner_type
+        yearly_data = (
+            repos_df.groupby(["year_group", "owner_type"])
+            .size()
+            .reset_index(name="count")
+        )
+
+        yearly_totals = yearly_data.groupby("year_group")["count"].sum().reset_index()
+        yearly_totals.columns = ["year_group", "total"]
+
+        yearly_data = yearly_data.merge(yearly_totals, on="year_group")
+        yearly_data["percentage"] = (yearly_data["count"] / yearly_data["total"]) * 100
+
+        year_order = ["2020-22", "2023-25"]
+
+        # Line chart
         for owner_type in sorted(owner_types):
             owner_data = yearly_data[yearly_data["owner_type"] == owner_type]
             owner_data = owner_data.sort_values("year_group")
@@ -1599,24 +1704,11 @@ def _(pd, timedelta):
                     line=dict(width=4, color=color),
                     marker=dict(size=12, color=color),
                     legendgroup=owner_type,
-                    showlegend=False,
-                ),
-                row=1,
-                col=2,
+                    showlegend=True,
+                )
             )
 
-        # Update axes
-        fig.update_xaxes(
-            title_text="Year Period",
-            type="category",
-            categoryorder="array",
-            categoryarray=year_order,
-            title_font=dict(size=18),
-            tickfont=dict(size=16),
-            row=1,
-            col=1,
-        )
-
+        # Update axes and layout
         fig.update_xaxes(
             title_text="Year Period",
             type="category",
@@ -1625,33 +1717,20 @@ def _(pd, timedelta):
             range=[-0.3, 1.3],
             title_font=dict(size=18),
             tickfont=dict(size=16),
-            row=1,
-            col=2,
         )
 
         fig.update_yaxes(
             title_text="Percentage (%)",
             title_font=dict(size=18),
             tickfont=dict(size=16),
-            row=1,
-            col=1,
         )
 
-        fig.update_yaxes(
-            title_text="Percentage (%)",
-            title_font=dict(size=18),
-            tickfont=dict(size=16),
-            row=1,
-            col=2,
-        )
-
-        # Update layout
         fig.update_layout(
-            title_text="GitHub Repos Created by Category",
+            title_text="Trend Between Periods",
             hovermode="x unified",
             template="plotly_white",
             height=500,
-            width=1000,
+            width=700,
             font=dict(size=16),
             title_font=dict(size=20),
             legend=dict(
@@ -1668,9 +1747,11 @@ def _(pd, timedelta):
 
     return (
         go,
-        plot_repos_created_combined,
+        plot_repos_created_bar,
+        plot_repos_created_trend,
         plot_star_history,
-        plot_star_history_combined,
+        plot_star_history_bar,
+        plot_star_history_trend,
     )
 
 
@@ -1706,7 +1787,7 @@ def _():
 
 
 @app.cell
-def _(events_df, plot_star_history_combined):
+def _(events_df, plot_star_history_bar, plot_star_history_trend):
     # _fig1 = plot_star_history_bar(events_df)
     # _fig1.show()
 
@@ -1714,8 +1795,11 @@ def _(events_df, plot_star_history_combined):
     # _fig2.write_image("./nice_plots/star_by_category_bar.png")
     # _fig2.show()
 
-    _fig3 = plot_star_history_combined(events_df)
-    _fig3.write_image("./nice_plots/star_by_category_bar_combined.png")
+    _fig3 = plot_star_history_bar(events_df)
+    _fig3.write_image("./nice_plots/star_by_category_bar.png")
+
+    _fig4 = plot_star_history_trend(events_df)
+    _fig4.write_image("./nice_plots/star_by_category_trend.png")
     # _fig3.show()
     return
 
@@ -1789,14 +1873,17 @@ def _(df_health, go, pd, timedelta):
 
 
 @app.cell
-def _(df_health, plot_repos_created_combined):
-    _fig = plot_repos_created_combined(df_health)
-    _fig.write_image("./nice_plots/ownership_periods_combined.png")
+def _(df_health, plot_repos_created_bar, plot_repos_created_trend):
+    _fig1 = plot_repos_created_bar(df_health)
+    _fig1.write_image("./nice_plots/repos_created_bar.png")
+
+    _fig2 = plot_repos_created_trend(df_health)
+    _fig2.write_image("./nice_plots/repos_created_trend.png")
     return
 
 
 @app.cell
-def _(color_palette, go, px):
+def _(color_palette, go):
     def plot_repository_creation_by_subcategory(repos_df, subcategory_col="subcat"):
         """
         Create a stacked bar chart of repository creation by subcategory over time.
@@ -1917,10 +2004,15 @@ def _(color_palette, go, px):
     def plot_cumulative_adoption_by_standard(repos_df, standard_col="standard"):
         """
         Create a line chart showing cumulative repository adoption by standard over time.
+        The two largest standards have labels directly on the graph.
+
         Args:
             repos_df: DataFrame with columns ['date_created', standard_col]
             standard_col: Name of the standard column containing lists of standards
         """
+        import random
+        from datetime import timedelta
+
         repos_df = repos_df.copy()
         repos_df = repos_df.sort_values("Created")
 
@@ -1933,12 +2025,37 @@ def _(color_palette, go, px):
 
         # Get unique standards
         standards = repos_expanded[standard_col].unique()
-
+        print(sorted(standards))
+        color_map_standards = [
+            "CQL",
+            "DICOM",
+            "iomt",
+            "HL7 CDA",
+            "HL7v2",
+            "OMOP-CDM",
+            "SNOMED CT",
+            "hpo",
+            "icd-10",
+            "FHIR",
+            "loinc",
+            "openEHR",
+        ]
         # Assign colors
         colors = {
             std: color_palette[i % len(color_palette)]
-            for i, std in enumerate(sorted(standards))
+            for i, std in enumerate(color_map_standards)
         }
+
+        # Get the two largest standards (by final cumulative count)
+        final_counts = {}
+        for standard in standards:
+            std_data = repos_expanded[repos_expanded[standard_col] == standard]
+            final_counts[standard] = len(std_data)
+
+        top_two_standards = sorted(
+            final_counts.items(), key=lambda x: x[1], reverse=True
+        )[:2]
+        top_two_standards = [std for std, _ in top_two_standards]
 
         # Create figure
         fig = go.Figure()
@@ -1954,9 +2071,31 @@ def _(color_palette, go, px):
                     y=std_data["cumulative"],
                     name=standard,
                     mode="lines",
-                    line=dict(width=2, color=colors[standard]),
+                    line=dict(width=3, color=colors[standard]),
+                    showlegend=False,
                 )
             )
+
+            # Add text annotation for the two largest standards
+            if standard in top_two_standards:
+                # Get the last point
+                last_x = std_data["Created"].iloc[-1]
+                last_y = std_data["cumulative"].iloc[-1]
+
+                # Add random jitter to y-position to avoid overlap
+                # y_jitter = random.uniform(-30, 30)
+
+                fig.add_annotation(
+                    x=last_x - timedelta(days=500),
+                    y=last_y + 15,
+                    text=standard,
+                    showarrow=False,
+                    xanchor="left",
+                    xshift=10,
+                    font=dict(size=18, color=colors[standard]),
+                    bgcolor="white",
+                    opacity=0.8,
+                )
 
         fig.update_layout(
             title="Cumulative Repository Adoption by Standard Over Time",
@@ -1964,8 +2103,14 @@ def _(color_palette, go, px):
             yaxis_title="Total Repositories (Cumulative)",
             template="plotly_white",
             height=400,
+            width=800,
             hovermode="x unified",
-            legend=dict(title=dict(text="Standard")),
+        )
+
+        fig.update_layout(
+            title_font_size=20,
+            font=dict(size=14),  # Affects axis labels and tick labels
+            # ... rest of your existing parameters
         )
 
         return fig
@@ -1973,10 +2118,15 @@ def _(color_palette, go, px):
     def plot_cumulative_repos_by_category(repos_df, category_col="category"):
         """
         Create a line chart showing cumulative number of repositories by category over time.
+        The two largest categories have labels directly on the graph.
+
         Args:
             repos_df: DataFrame with columns ['Created', category_col]
             category_col: Name of the category column to group by
         """
+        import random
+        from datetime import timedelta
+
         repos_df = repos_df.copy()
         repos_df = repos_df.sort_values("Created")
 
@@ -1988,6 +2138,17 @@ def _(color_palette, go, px):
             cat: color_palette[i % len(color_palette)]
             for i, cat in enumerate(sorted(categories))
         }
+
+        # Get the two largest categories (by final cumulative count)
+        final_counts = {}
+        for category in categories:
+            cat_data = repos_df[repos_df[category_col] == category]
+            final_counts[category] = len(cat_data)
+
+        top_two_categories = sorted(
+            final_counts.items(), key=lambda x: x[1], reverse=True
+        )
+        top_two_categories = [cat for cat, _ in top_two_categories]
 
         # Create figure
         fig = go.Figure()
@@ -2002,9 +2163,31 @@ def _(color_palette, go, px):
                     y=cat_data["cumulative"],
                     name=category,
                     mode="lines",
-                    line=dict(width=2, color=colors[category]),
+                    line=dict(width=3, color=colors[category]),
+                    showlegend=False,
                 )
             )
+
+            # Add text annotation for the two largest categories
+            if category in top_two_categories:
+                # Get the last point
+                last_x = cat_data["Created"].iloc[-1]
+                last_y = cat_data["cumulative"].iloc[-1]
+
+                # Add random jitter to y-position to avoid overlap
+                # y_jitter = random.uniform(-30, 30)
+
+                fig.add_annotation(
+                    x=last_x - timedelta(days=1300),
+                    y=last_y,
+                    text=category,
+                    showarrow=False,
+                    xanchor="left",
+                    xshift=10,
+                    font=dict(size=20, color=colors[category]),
+                    bgcolor="white",
+                    opacity=0.8,
+                )
 
         fig.update_layout(
             title="Cumulative Number of Repositories by Category Over Time",
@@ -2014,7 +2197,12 @@ def _(color_palette, go, px):
             height=550,
             width=800,
             hovermode="x unified",
-            legend=dict(title=dict(text="Category")),
+        )
+
+        fig.update_layout(
+            title_font_size=20,
+            font=dict(size=14),  # Affects axis labels and tick labels
+            # ... rest of your existing parameters
         )
 
         return fig
@@ -2025,11 +2213,15 @@ def _(color_palette, go, px):
         """
         Create a line chart showing cumulative repository adoption by language over time.
         Shows only the top N languages by total repository count.
+        The two largest languages have labels directly on the graph.
+
         Args:
             repos_df: DataFrame with columns ['date_created', language_col]
             language_col: Name of the language column containing lists of languages
             top_n: Number of top languages to display (default: 10)
         """
+        import random
+
         repos_df = repos_df.copy()
         repos_df = repos_df.sort_values("Created")
 
@@ -2050,16 +2242,36 @@ def _(color_palette, go, px):
         ]
 
         # Assign colors
-        color_palette = px.colors.qualitative.Set1
+        # color_palette = px.colors.qualitative.Set1
+        custom_color_order = [
+            "Java",
+            "Jupyter Notebook",
+            "Python",
+            "JavaScript",
+            "TypeScript",
+        ]
         colors = {
             lang: color_palette[i % len(color_palette)]
-            for i, lang in enumerate(sorted(top_languages))
+            for i, lang in enumerate(custom_color_order)
         }
+
+        # Get the two largest languages (by final cumulative count)
+        final_counts = {}
+        for language in top_languages:
+            lang_data = repos_expanded[repos_expanded[language_col] == language]
+            final_counts[language] = len(lang_data)
+
+        top_two_languages = sorted(
+            final_counts.items(), key=lambda x: x[1], reverse=True
+        )[:5]
+        top_two_languages = [lang for lang, _ in top_two_languages]
 
         # Create figure
         fig = go.Figure()
 
-        for language in sorted(top_languages):
+        y_jitter = [0, 10, -2, 0, 0]
+        print(sorted(top_languages))
+        for i, language in enumerate(sorted(top_languages)):
             lang_data = repos_expanded[repos_expanded[language_col] == language].copy()
             lang_data = lang_data.sort_values("Created")
             lang_data["cumulative"] = range(1, len(lang_data) + 1)
@@ -2070,9 +2282,30 @@ def _(color_palette, go, px):
                     y=lang_data["cumulative"],
                     name=language,
                     mode="lines",
-                    line=dict(width=2, color=colors[language]),
+                    line=dict(width=3, color=colors[language]),
+                    showlegend=False,
                 )
             )
+
+            # Add text annotation for the two largest languages
+            if language in top_two_languages:
+                # Get the last point
+                last_x = lang_data["Created"].iloc[-1]
+                last_y = lang_data["cumulative"].iloc[-1]
+
+                # Add random jitter to y-position to avoid overlap
+
+                fig.add_annotation(
+                    x=last_x,
+                    y=last_y + y_jitter[i],
+                    text=language,
+                    showarrow=False,
+                    xanchor="left",
+                    xshift=10,
+                    font=dict(size=16, color=colors[language]),
+                    bgcolor="white",
+                    opacity=0.8,
+                )
 
         fig.update_layout(
             title=f"Cumulative Repository Adoption by Language (Top {top_n})",
@@ -2082,7 +2315,12 @@ def _(color_palette, go, px):
             height=400,
             width=800,
             hovermode="x unified",
-            legend=dict(title=dict(text="Language")),
+        )
+
+        fig.update_layout(
+            title_font_size=20,
+            font=dict(size=14),  # Affects axis labels and tick labels
+            # ... rest of your existing parameters
         )
 
         return fig
@@ -2142,28 +2380,42 @@ def _(
     fig6 = plot_cumulative_adoption_by_language(
         df_health_r, language_col="Language", top_n=5
     )
-
     return fig4, fig5, fig6
 
 
 @app.cell
 def _(fig6):
     fig6.show()
-    fig6.write_image("./nice_plots/final_plots/language_timeline.png")
+    fig6.write_image("./nice_plots/language_timeline.png", scale=2)
     return
 
 
 @app.cell
 def _(fig5):
-    # fig5.show()
-    fig5.write_image("./nice_plots/cumulative_repo_timeline.png")
+    fig5.show()
+    fig5.write_image("./nice_plots/cumulative_repo_timeline.png", scale=2)
     return
 
 
 @app.cell
 def _(fig4):
-    # fig4.show()
-    fig4.write_image("./nice_plots/cumulative_standard_timeline.png")
+    fig4.show()
+    fig4.write_image("./nice_plots/cumulative_standard_timeline.png", scale=2)
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _():
     return
 
 
