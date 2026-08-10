@@ -1,0 +1,148 @@
+# Owner taxonomy for the ownership charts.
+#
+# Keyed on the GitHub OWNER (the part before the "/"), matched exactly and
+# case-insensitively. First and only match wins -- there is no substring
+# matching, deliberately: the previous substring rules classified
+# `awslabs/fhir-works-on-aws-authz-smart` as a community project because the
+# repo name contained "smart".
+#
+# Owners not listed here fall back to the coarse "Organization"/"User" label
+# from the GitHub API (repos_classified.csv) and are EXCLUDED from the
+# four-way ownership charts. tests/test_owner_types.py fails if the
+# unclassified share exceeds config.MAX_UNCLASSIFIED_OWNER_SHARE.
+#
+# After each quarterly refresh, run:
+#     uv run python -m healthcare_ai.owner_types --report
+# to list newly-seen owners that need a label.
+#
+# Valid types: Incumbent, Research Lab, Startup,
+#              Community Project/Non-Profit, User
+
+Incumbent:
+  # Large established technology or healthcare companies.
+  - microsoft
+  - google
+  - GoogleCloudPlatform
+  - apple
+  - awslabs
+  - aws-samples
+  - FirelyTeam
+  - hapifhir
+  - nHapiNET
+  - epic-open-source
+  - nextgenhealthcare
+  - b2ihealthcare
+  - cerner
+  - philips-software
+  - HCA-Healthcare
+  - databricks-industry-solutions
+  - ballerina-platform
+
+Research Lab:
+  # University groups, academic medical centres, public research institutes.
+  - som-shahlab
+  - shahlab
+  - stanfordmlgroup
+  - StanfordBDHG
+  - StanfordSpezi
+  - StanfordMIMI
+  - stanford-crfm
+  - MIT-LCP
+  - mitre
+  - Project-MONAI
+  - ncbi-nlp
+  - LHNCBC
+  - theislab
+  - NYUMedML
+  - ZhiGroup
+  - aiwonglab
+  - ubicomplab
+  - sunlabuiuc
+  - healthylaife
+  - uf-hobi-informatics-lab
+  - FudanDISC
+  - bowang-lab
+  - remotebiosensing
+  - VectorInstitute
+  - aehrc
+  - crs4
+  - AI4HealthUOL
+
+Startup:
+  # Venture-backed or small commercial healthcare software companies.
+  - beda-software
+  - bluehalo
+  - CogStack
+  - Vermonster
+  - fastenhealth
+  - metriport
+  - synthetichealth
+  - medplum
+  - masslight
+  - owkin
+  - earthians
+  - fhirbase
+  - the-momentum
+  - flexpa
+  - canvas-medical
+  - lantanagroup
+  - srdc
+  - amida-tech
+  - arkhn
+
+Community Project/Non-Profit:
+  # Standards bodies, open-source foundations, government and public agencies.
+  - HL7
+  - hl7au
+  - hl7germany
+  - HL7Norway
+  - ruby-hl7
+  - FHIR
+  - fhir-ru
+  - fhircat
+  - fhir-schema
+  - fhirfly
+  - fhir-fuel
+  - fhir-crucible
+  - fhir-typescript
+  - fhircast
+  - fhirpack
+  - bonfhir
+  - POLAR-fhiR
+  - BD2KOnFHIR
+  - smart-on-fhir
+  - SMARTMarkers
+  - OHDSI
+  - cqframework
+  - openmrs
+  - openemr
+  - HospitalRun
+  - LibreHealthIO
+  - LinuxForHealth
+  - inferno-framework
+  - samply
+  - oehf
+  - BiomedSciAI
+  - analysiscenter
+  - cds-hooks
+  - mne-tools
+  - HealthIntersections
+  - informatici
+  - gematik
+  - CMSgov
+  - AHRQ-CDS
+  - nhsconnect
+
+User:
+  # Individual maintainers publishing under a personal account.
+  - node-on-fhir
+  - ehrbase
+  - OpenHealthForAll
+  - dermatologist
+  - yhzhu99
+  - RobHolme
+  - nazrulworld
+  - jmandel
+  - ritaranx
+  - brianpos
+  - johnpaulett

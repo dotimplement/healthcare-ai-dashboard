@@ -1,7 +1,7 @@
 [project]
-name = "healthcare-eda"
-version = "0.1.0"
-description = "Add your description here"
+name = "healthcare-ai-dashboard"
+version = "0.2.0"
+description = "Dashboard and chart pipeline for tracking the healthcare AI repository ecosystem"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -14,6 +14,41 @@ dependencies = [
     "plotly==6.3.1",
     "protobuf>=6.32.1",
     "python-dotenv>=1.1.1",
+    "pyyaml>=6.0",
+    "requests>=2.32",
     "streamlit>=1.50.0",
     "tqdm>=4.67.1",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["healthcare_ai"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 90
+# charts.py is a marimo notebook: marimo owns its formatting and rewrites the
+# file on save, so linting it only produces churn.
+extend-exclude = ["charts.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = [
+    "E501",  # line length is handled by the formatter
+    "B008",  # streamlit idioms call functions in defaults
+]
+
+[tool.ruff.lint.per-file-ignores]
+# The dashboard is a top-to-bottom script; it legitimately builds state as it goes.
+# E712: `series == True` is deliberate on nullable boolean columns -- the bare
+# truth check ruff suggests raises on the None values from unclassified owners.
+"main.py" = ["E402", "E712", "B007"]
+"healthcare_ai/github_api.py" = ["E712", "B007"]

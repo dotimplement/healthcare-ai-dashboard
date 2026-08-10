@@ -1,0 +1,26 @@
+# charts.py is deliberately excluded from all formatting hooks.
+#
+# It is a marimo notebook: marimo rewrites the file with its own formatting
+# every time you save in the editor, so any formatter here fights it and every
+# session produces a large whitespace-only diff. Let marimo own that file.
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-added-large-files
+        args: [--maxkb=12000]  # star_events_history.csv is ~9MB
+      - id: end-of-file-fixer
+        exclude: ^charts\.py$
+      - id: trailing-whitespace
+        exclude: ^charts\.py$
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.13.2
+    hooks:
+      - id: ruff
+        args: [--fix]
+        exclude: ^charts\.py$
+      - id: ruff-format
+        exclude: ^charts\.py$

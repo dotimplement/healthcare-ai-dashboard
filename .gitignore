@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project data policy ---------------------------------------------------
+# star_events_history.csv (~9MB) IS tracked deliberately: healthcare_ai/stars.py
+# resumes from it, so without it every refresh becomes a full refetch of 116k
+# star events. Same for data_archive/, which quarter-over-quarter diffs read.
+# Both are intentionally NOT ignored.
+
+# Claude Code local settings
+.claude/
